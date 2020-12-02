@@ -1,0 +1,886 @@
+,PassengerId,Survived,Pclass,Sex,SibSp,Parch,Ticket,Fare,Embarked,Age_wiki,Hometown,Boarded,Destination,Lifeboat
+0,1,0.0,3,male,1,0,A/5 21171,7.25,S,22.0,"Bridgerule, Devon, England",Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",Unlikely
+1,2,1.0,1,female,1,0,PC 17599,71.2833,C,35.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+2,3,1.0,3,female,0,0,STON/O2. 3101282,7.925,S,26.0,"Jyväskylä, Finland",Southampton,New York City,Confirmed
+3,4,1.0,1,female,1,0,113803,53.1,S,35.0,"Scituate, Massachusetts, US",Southampton,"Scituate, Massachusetts, US",Confirmed
+4,5,0.0,3,male,0,0,373450,8.05,S,35.0,"Birmingham, West Midlands, England",Southampton,New York City,Unlikely
+5,6,0.0,3,male,0,0,330877,8.4583,Q,22.0,"Cork, Ireland",Queenstown,New York City,Unlikely
+6,7,0.0,1,male,0,0,17463,51.8625,S,54.0,"Dorchester, Massachusetts, US",Southampton,"Dorchester, Massachusetts, US",Unlikely
+7,8,0.0,3,male,3,1,349909,21.075,S,2.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+8,9,1.0,3,female,0,2,347742,11.1333,S,26.0,"St. Charles, Illinois, US",Southampton,"St. Charles, Illinois, US",Confirmed
+9,10,1.0,2,female,1,0,237736,30.0708,C,14.0,"Zahlé, Lebanon, Ottoman Empire",Cherbourg,"Cleveland, Ohio, US",Unconfirmed
+10,11,1.0,3,female,1,1,PP 9549,16.7,S,4.0,"Motala, Östergötland, Sweden",Southampton,"San Francisco, US",Confirmed
+11,12,1.0,1,female,0,0,113783,26.55,S,61.0,"Youngstown, Ohio, US",Southampton,"Youngstown, Ohio, US",Confirmed
+12,13,0.0,3,male,0,0,A/5. 2151,8.05,S,19.0,"St Austell, Cornwall, England",Southampton,New York City,Unlikely
+13,14,0.0,3,male,1,5,347082,31.275,S,39.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+14,15,0.0,3,female,0,0,350406,7.8542,S,14.0,"Salmunds, Gotland, Sweden",Southampton,"Los Angeles, US",Unlikely
+15,16,1.0,2,female,0,0,248706,16.0,S,56.0,"Lucknow, British India, UK[note 3]",Southampton,"Rapid City, South Dakota, US",Confirmed
+16,17,0.0,3,male,4,1,382652,29.125,Q,2.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US",Unlikely
+17,18,1.0,2,male,0,0,244373,13.0,S,23.0,"Harrow, London, England",Southampton,"Chicago, Illinois, US",Confirmed
+18,19,0.0,3,female,1,0,345763,18.0,S,31.0,"Pittem, Belgium",Southampton,"Fremont, Ohio, US",Unlikely
+19,20,1.0,3,female,0,0,2649,7.225,C,22.0,"Tebnine, Lebanon",Cherbourg,"Michigan City, Indiana, US",Confirmed
+20,21,0.0,2,male,0,0,239865,26.0,S,35.0,"Liverpool, Merseyside, England, UK",Southampton,"Montreal, Quebec, Canada",Unlikely
+21,22,1.0,2,male,0,0,248698,13.0,S,34.0,"London, England, UK",Southampton,"Toronto, Ontario, Canada",Confirmed
+22,23,1.0,3,female,0,0,330923,8.0292,Q,16.0,"Massbrook, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Confirmed
+23,24,1.0,1,male,0,0,113788,35.5,S,28.0,"New Britain, Connecticut, US",Southampton,"New Britain, Connecticut, US",Confirmed
+24,25,0.0,3,female,3,1,349909,21.075,S,8.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+25,26,1.0,3,female,1,5,347077,31.3875,S,38.0,"Alseda, Småland, Sweden",Southampton,"Worcester, Massachusetts, US",Confirmed
+26,27,0.0,3,male,0,0,2631,7.225,C,25.0,"Hadath, Lebanon",Cherbourg,New York City,Unlikely
+27,28,0.0,1,male,3,2,19950,263.0,S,19.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+28,29,1.0,3,female,0,0,330959,7.8792,Q,25.0,"Limerick, Limerick, Ireland",Queenstown,New York City,Unconfirmed
+29,30,0.0,3,male,0,0,349216,7.8958,S,23.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+30,31,0.0,1,male,0,0,PC 17601,27.7208,C,40.0,"Mexico City, Mexico",Cherbourg,"Mexico City, Mexico",Unlikely
+31,32,1.0,1,female,1,0,PC 17569,146.5208,C,45.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+32,33,1.0,3,female,0,0,335677,7.75,Q,19.0,"Killaloe, Clare, Ireland",Queenstown,"Washington, DC, US",Confirmed
+33,34,0.0,2,male,0,0,C.A. 24579,10.5,S,66.0,"Guernsey, Channel Islands",Southampton,"Edgewood, Rhode Island, US",Unlikely
+34,35,0.0,1,male,1,0,PC 17604,82.1708,C,28.0,"New York, New York, US",Cherbourg,"New York, New York, US",Unlikely
+35,36,0.0,1,male,1,0,113789,52.0,S,42.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+36,37,1.0,3,male,0,0,2677,7.2292,C,20.0,"Tripoli, Lebanon",Cherbourg,"Philadelphia, Pennsylvania, US",Confirmed
+37,38,0.0,3,male,0,0,A./5. 2152,8.05,S,21.0,"Penwithick, Cornwall, England",Southampton,New York City,Unlikely
+38,39,0.0,3,female,2,0,345764,18.0,S,18.0,"Zwevezele, Belgium",Southampton,"Fremont, Ohio, US",Unlikely
+39,40,1.0,3,female,1,0,2651,11.2417,C,14.0,"El-Hakour, Lebanon",Cherbourg,"Jacksonville, Florida, US",Confirmed
+40,41,0.0,3,female,1,0,7546,9.475,S,40.0,"Göteborg, Västergötland, Sweden",Southampton,"Akeley, Minnesota, US",Unlikely
+41,42,0.0,2,female,1,0,11668,21.0,S,27.0,"Plymouth, Devon, England",Southampton,"Salt Lake City, Utah, US",Unlikely
+43,44,1.0,2,female,1,2,SC/Paris 2123,41.5792,C,3.0,"Paris, France",Cherbourg,"Cap-Haïtien, Haiti",Confirmed
+44,45,1.0,3,female,0,0,330958,7.8792,Q,19.0,"Kilmacowen, Sligo, Ireland",Queenstown,New York City,Confirmed
+45,46,0.0,3,male,0,0,S.C./A.4. 23567,8.05,S,29.0,"Pontardawe, West Glamorgan, Wales",Southampton,New York City,Unlikely
+46,47,0.0,3,male,1,0,370371,15.5,Q,20.0,"Ballymahon, Longford, Ireland",Queenstown,New York City,Unlikely
+47,48,1.0,3,female,0,0,14311,7.75,Q,24.0,"Ballydehob, Cork, Ireland",Queenstown,"Jersey City, New Jersey, US",Confirmed
+48,49,0.0,3,male,2,0,2662,21.6792,C,16.0,"Hardîne, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US",Unlikely
+49,50,0.0,3,female,1,0,349237,17.8,S,18.0,"Altdorf, Uri, Switzerland",Southampton,"New Glarus, Wisconsin, US",Unlikely
+50,51,0.0,3,male,4,1,3101295,39.6875,S,7.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US",Unlikely
+51,52,0.0,3,male,0,0,A/4. 39886,7.8,S,21.0,"Newton Abbot, Devon, England",Southampton,"Buffalo, New York, US",Unlikely
+52,53,1.0,1,female,1,0,PC 17572,76.7292,C,49.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+53,54,1.0,2,female,1,0,2926,26.0,S,29.0,"Manchester, England",Southampton,"Philadelphia, Pennsylvania, US",Confirmed
+54,55,0.0,1,male,0,1,113509,61.9792,C,64.0,"Providence, Rhode Island, US",Southampton,"Providence, Rhode Island, US",Unlikely
+55,56,1.0,1,male,0,0,19947,35.5,S,45.0,"London, England, UK",Southampton,"New York, New York, US",Confirmed
+56,57,1.0,2,female,0,0,C.A. 31026,10.5,S,21.0,"Guernsey, Channel Islands",Southampton,"Wilmington, Delaware, US",Confirmed
+57,58,0.0,3,male,0,0,2697,7.2292,C,20.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+58,59,1.0,2,female,1,2,C.A. 34651,27.75,S,4.0,"Bournemouth, Dorset, England",Southampton,"Gainesville, Florida, US",Confirmed
+59,60,0.0,3,male,5,2,CA 2144,46.9,S,13.0,"Fulham, England",Southampton,"Niagara Falls, New York, US",Unlikely
+60,61,0.0,3,male,0,0,2669,7.2292,C,22.0,"Kiğı, Turkey",Cherbourg,"Brantford, Ontario, Canada",Unlikely
+62,63,0.0,1,male,1,0,36973,83.475,S,45.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+63,64,0.0,3,male,3,2,347088,27.9,S,5.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+64,65,0.0,1,male,0,0,PC 17605,27.7208,C,54.0,"Cincinnati, Ohio, US",Cherbourg,"Gallipolis, Ohio, US",Unlikely
+65,66,1.0,3,male,1,1,2661,15.2458,C,7.0,"Hardîne, Lebanon",Cherbourg,"Houtzdale, Pennsylvania, US",Confirmed
+66,67,1.0,2,female,0,0,C.A. 29395,10.5,S,29.0,"East Orange, New Jersey, US",Southampton,"East Orange, New Jersey, US",Confirmed
+67,68,0.0,3,male,0,0,S.P. 3464,8.1583,S,19.0,"Bristol, Avon, England",Southampton,"Cleveland, Ohio, US",Unlikely
+68,69,1.0,3,female,4,2,3101281,7.925,S,17.0,"Kullaa, Finland",Southampton,New York City,Confirmed
+69,70,0.0,3,male,2,0,315151,8.6625,S,26.0,"Zürich, Switzerland",Southampton,"Milwaukee, Wisconsin, US",Unlikely
+70,71,0.0,2,male,0,0,C.A. 33111,10.5,S,32.0,"St. Ives, Cornwall, England",Southampton,"Houghton, Michigan, US",Unlikely
+71,72,0.0,3,female,5,2,CA 2144,46.9,S,16.0,"Fulham, England",Southampton,"Niagara Falls, New York, US",Unlikely
+72,73,0.0,2,male,0,0,S.O.C. 14879,73.5,S,21.0,"Fritham, Hampshire, England",Southampton,"Manitoba, Canada",Unlikely
+73,74,0.0,3,male,1,0,2680,14.4542,C,26.0,"Agios Sostis, Peloponnese, Greece",Cherbourg,New York City,Unlikely
+74,75,1.0,3,male,0,0,1601,56.4958,S,32.0,"Hong Kong, China",Southampton,New York City,Confirmed
+75,76,0.0,3,male,0,0,348123,7.65,S,25.0,"Bergen, Norway",Southampton,"Minneapolis, Minnesota, US",Unlikely
+76,77,0.0,3,male,0,0,349208,7.8958,S,23.0,"Debnevo, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+77,78,0.0,3,male,0,0,374746,8.05,S,28.0,"London, England",Southampton,New York City,Unlikely
+78,79,1.0,2,male,0,2,248738,29.0,S,0.83,"Bangkok, Siam",Southampton,"Roseville, Illinois, US",Confirmed
+79,80,1.0,3,female,0,0,364516,12.475,S,31.0,"New York City, New York, US",Southampton,New York City,Confirmed
+80,81,0.0,3,male,0,0,345767,9.0,S,22.0,"Ruiselede, West Flanders, Belgium",Southampton,"Stanton, Ohio, US",Unlikely
+81,82,1.0,3,male,0,0,345779,9.5,S,29.0,"Haaltert, East Flanders, Belgium",Southampton,"Detroit, Michigan, US",Confirmed
+82,83,1.0,3,female,0,0,330932,7.7875,Q,31.0,"Lahardane, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Confirmed
+83,84,0.0,1,male,0,0,113059,47.1,S,31.0,"Montevideo, Uruguay",Southampton,"Montevideo, Uruguay",Unlikely
+84,85,1.0,2,female,0,0,SO/C 14885,10.5,S,17.0,"Jersey, Channel Islands",Southampton,"Atlanta, Georgia, US",Unconfirmed
+85,86,1.0,3,female,3,0,3101278,15.85,S,33.0,"Kotka, Finland",Southampton,New York City,Confirmed
+86,87,0.0,3,male,1,3,W./C. 6608,34.375,S,16.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US",Unlikely
+87,88,0.0,3,male,0,0,SOTON/OQ 392086,8.05,S,20.0,"London, England",Southampton,New York City,Unlikely
+88,89,1.0,1,female,3,2,19950,263.0,S,23.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada",Confirmed
+89,90,0.0,3,male,0,0,343275,8.05,S,24.0,"Milan[83], Italy",Southampton,New York City,Unlikely
+90,91,0.0,3,male,0,0,343276,8.05,S,29.0,"London, England",Southampton,New York City,Unlikely
+91,92,0.0,3,male,0,0,347466,7.8542,S,20.0,"Kalfsnäs, Småland, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+92,93,0.0,1,male,1,0,W.E.P. 5734,61.175,S,46.0,"Amenia, North Dakota, US",Southampton,"Amenia, North Dakota, US",Unlikely
+93,94,0.0,3,male,1,2,C.A. 2315,20.575,S,25.0,"Bartley Farm, Hampshire, England",Southampton,"Wichita, Kansas, US",Unlikely
+94,95,0.0,3,male,0,0,364500,7.25,S,59.0,"London, England",Southampton,"Merrill, Wisconsin, US",Unlikely
+95,96,0.0,3,male,0,0,374910,8.05,S,22.0,"Heron's Ghyll, East Sussex, England",Southampton,"New York, US",Unlikely
+96,97,0.0,1,male,0,0,PC 17754,34.6542,C,71.0,"New York, New York, US",Cherbourg,"New York, New York, US",Unlikely
+97,98,1.0,1,male,0,1,PC 17759,63.3583,C,23.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+98,99,1.0,2,female,0,1,231919,23.0,S,34.0,"Southampton, Hampshire, England, UK",Southampton,New York City,Unconfirmed
+99,100,0.0,2,male,1,0,244367,26.0,S,34.0,"Vitebsk, Russian Empire",Southampton,"Bronx, New York, US",Unlikely
+100,101,0.0,3,female,0,0,349245,7.8958,S,28.0,"Vagovina, Croatia",Southampton,"Harrisburg, Pennsylvania, US",Unlikely
+101,102,0.0,3,male,0,0,349215,7.8958,S,29.0,"Belish, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+102,103,0.0,1,male,0,1,35281,77.2875,S,21.0,"Brunswick, Maine, US",Southampton,"Brunswick, Maine, US",Unlikely
+103,104,0.0,3,male,0,0,7540,8.6542,S,33.0,"Bäckebo, Småland, Sweden",Southampton,"Cheyenne, North Dakota, US",Unlikely
+104,105,0.0,3,male,2,0,3101276,7.925,S,37.0,"Ruotsinpyhtää, Finland",Southampton,New York City,Unlikely
+105,106,0.0,3,male,0,0,349207,7.8958,S,28.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+106,107,1.0,3,female,0,0,343120,7.65,S,21.0,"Ålesund, Møre og Romsdal, Norway",Southampton,"Proctor, Minnesota, US",Confirmed
+107,108,1.0,3,male,0,0,312991,7.775,S,29.0,"Bergen, Norway",Southampton,New York City,Confirmed
+108,109,0.0,3,male,0,0,349249,7.8958,S,38.0,"Bosanska Krupa, Bosnia",Southampton,"Harrisburg, Pennsylvania, US",Unlikely
+109,110,1.0,3,female,1,0,371110,24.15,Q,28.0,"Askeaton, Limerick, Ireland",Queenstown,"Brooklyn, New York, US",Confirmed
+110,111,0.0,1,male,0,0,110465,52.0,S,46.0,"Worcester, Massachusetts, US",Southampton,"Worcester, Massachusetts, US",Unlikely
+111,112,0.0,3,female,1,0,2665,14.4542,C,16.0,"Unknown, Syria",Cherbourg,New York City,Unlikely
+112,113,0.0,3,male,0,0,324669,8.05,S,22.0,"Cambridge, Cambridgeshire, England",Southampton,New York City,Unlikely
+113,114,0.0,3,female,1,0,4136,9.825,S,20.0,"Paavola, Northern Ostrobothnia, Finland",Southampton,New York City,Unlikely
+114,115,0.0,3,female,0,0,2627,14.4583,C,17.0,"Beirut, Lebanon",Cherbourg,New York City,Unlikely
+115,116,0.0,3,male,0,0,STON/O 2. 3101294,7.925,S,21.0,"Heinola, Finland",Southampton,New York City,Unlikely
+116,117,0.0,3,male,0,0,370369,7.75,Q,61.0,"Charleville, Cork, Ireland",Queenstown,New York City,Unlikely
+117,118,0.0,2,male,1,0,11668,21.0,S,29.0,"Plymouth, Devon, England",Southampton,"Salt Lake City, Utah, US",Unlikely
+118,119,0.0,1,male,0,1,PC 17558,247.5208,C,24.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada",Unlikely
+119,120,0.0,3,female,4,2,347082,31.275,S,2.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+120,121,0.0,2,male,2,0,S.O.C. 14879,73.5,S,20.0,"Fritham, Hampshire, England",Southampton,"The Pas, Manitoba, Canada",Unlikely
+121,122,0.0,3,male,0,0,A4. 54510,8.05,S,19.0,"Kingston upon Thames, London, England",Southampton,"Hoboken, New Jersey, US",Unlikely
+122,123,0.0,2,male,1,0,237736,30.0708,C,28.0,"Zahlé, Lebanon, Ottoman Empire[note 7]",Cherbourg,"Cleveland, Ohio, US",Unlikely
+123,124,1.0,2,female,0,0,27267,13.0,S,37.0,"Bude, Cornwall, England",Southampton,"Hartford, Connecticut, US",Confirmed
+124,125,0.0,1,male,0,1,35281,77.2875,S,54.0,"Brunswick, Maine, US",Southampton,"Brunswick, Maine, US",Unlikely
+125,126,1.0,3,male,1,0,2651,11.2417,C,12.0,"El-Hakour, Lebanon",Cherbourg,"Jacksonville, Florida, US",Confirmed
+126,127,0.0,3,male,0,0,370372,7.75,Q,20.0,"Craghbrien, Clare, Ireland",Queenstown,New York City,Unlikely
+127,128,1.0,3,male,0,0,C 17369,7.1417,S,24.0,"Trondheim, Norway",Southampton,"Brooklyn, New York, US",Confirmed
+128,129,1.0,3,female,1,1,2668,22.3583,C,2.0,"Sar'al, Syria[81]",Cherbourg,"Detroit, Michigan, US",Confirmed
+129,130,0.0,3,male,0,0,347061,6.975,S,45.0,"Effington Rut, South Dakota, US",Southampton,"Effington Rut, South Dakota, US",Unlikely
+130,131,0.0,3,male,0,0,349241,7.8958,C,33.0,"Hrastelnica, Croatia",Cherbourg,New York City,Unlikely
+131,132,0.0,3,male,0,0,SOTON/O.Q. 3101307,7.05,S,20.0,"Funchal, Madeira Islands, Portugal",Southampton,New York City,Unlikely
+132,133,0.0,3,female,1,0,A/5. 3337,14.5,S,47.0,"St Austell, Cornwall, England",Southampton,"Yonkers, New York, US",Unlikely
+133,134,1.0,2,female,1,0,228414,26.0,S,37.0,"Bromsgrove, Worcestershire, England",Southampton,"Montreal, Quebec, Canada",Confirmed
+134,135,0.0,2,male,0,0,C.A. 29178,13.0,S,25.0,"Porthallow, Cornwall, England",Southampton,"Houghton, Michigan, US",Unlikely
+135,136,0.0,2,male,0,0,SC/PARIS 2133,15.0458,C,23.0,"Paris, France",Cherbourg,"Montreal, Quebec, Canada",Unlikely
+136,137,1.0,1,female,0,2,11752,26.2833,S,19.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+137,138,0.0,1,male,1,0,113803,53.1,S,37.0,"Scituate, Massachusetts, US",Southampton,"Scituate, Massachusetts, US",Unlikely
+138,139,0.0,3,male,0,0,7534,9.2167,S,16.0,"Hedesunda, Gävleborg, Sweden",Southampton,"Mitchell, South Dakota, US",Unlikely
+139,140,0.0,1,male,0,0,PC 17593,79.2,C,24.0,"Paris, France",Cherbourg,"New York, New York, US",Unlikely
+140,141,0.0,3,female,0,2,2678,15.2458,C,40.0,"Unknown, Lebanon",Cherbourg,"Kent, British Columbia, Canada",Unlikely
+141,142,1.0,3,female,0,0,347081,7.75,S,22.0,"Kisa, Östergötland, Sweden",Southampton,"Hackensack, New Jersey, US",Confirmed
+142,143,1.0,3,female,1,0,STON/O2. 3101279,15.85,S,24.0,"Helsinki, Finland",Southampton,"Monessen, Pennsylvania, US",Confirmed
+143,144,0.0,3,male,0,0,365222,6.75,Q,19.0,"Glanmire, Cork, Ireland",Queenstown,"Charlestown, US",Unlikely
+144,145,0.0,2,male,0,0,231945,11.5,S,17.0,"San Ambrosio, Córdoba, Argentina",Southampton,"Trenton, New Jersey, US",Unlikely
+145,146,0.0,2,male,1,1,C.A. 33112,36.75,S,19.0,"St. Ives, Cornwall, England",Southampton,"Houghton, Michigan, US",Unlikely
+146,147,1.0,3,male,0,0,350043,7.7958,S,27.0,"Malmö, Skåne, Sweden",Southampton,"Chicago, Illinois, US",Confirmed
+147,148,0.0,3,female,2,2,W./C. 6608,34.375,S,7.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US",Unlikely
+148,149,0.0,2,male,0,2,230080,26.0,S,32.0,"Nice, France",Southampton,New York City,Unlikely
+149,150,0.0,2,male,0,0,244310,13.0,S,42.0,"London, England",Southampton,"Jacksonville, Florida, US",Unlikely
+150,151,0.0,2,male,0,0,S.O.P. 1166,12.525,S,51.0,"Jacksonville, Florida, US",Southampton,"Jacksonville, Florida, US",Unlikely
+151,152,1.0,1,female,1,0,113776,66.6,S,22.0,"Isleworth, London, England, UK",Southampton,"New York, New York, US",Confirmed
+152,153,0.0,3,male,0,0,A.5. 11206,8.05,S,48.0,"Bournemouth, Dorset, England",Southampton,"Washington, DC, US",Unlikely
+153,154,0.0,3,male,0,2,A/5. 851,14.5,S,35.0,"London, England",Southampton,"North Wales, Pennsylvania, US",Unlikely
+154,155,0.0,3,male,0,0,Fa 265302,7.3125,S,27.0,"Sunnhordland, Norway",Southampton,"Broderick, Canada",Unlikely
+155,156,0.0,1,male,0,1,PC 17597,61.3792,C,51.0,"Geneva, Switzerland",Cherbourg,"Radnor, Pennsylvania, US",Unlikely
+156,157,1.0,3,female,0,0,35851,7.7333,Q,17.0,"Esker, Longford, Ireland",Queenstown,New York City,Confirmed
+157,158,0.0,3,male,0,0,SOTON/OQ 392090,8.05,S,30.0,"London, England",Southampton,New York City,Unlikely
+158,159,0.0,3,male,0,0,315037,8.6625,S,37.0,"Pisac, Croatia",Southampton,New York City,Unlikely
+159,160,0.0,3,male,8,2,CA. 2343,69.55,S,4.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+160,161,0.0,3,male,0,1,371362,16.1,S,44.0,"Bournemouth, Dorset, England",Southampton,"Newark, New Jersey, US",Unlikely
+161,162,1.0,2,female,0,0,C.A. 33595,15.75,S,40.0,"Aberdeen, Aberdeenshire, Scotland",Southampton,"Portland, Oregon, US",Confirmed
+162,163,0.0,3,male,0,0,347068,7.775,S,26.0,"Fridhemsberg, Halland, Sweden",Southampton,"Monee, Illinois, US",Unlikely
+163,164,0.0,3,male,0,0,315093,8.6625,S,17.0,"Brezik, Croatia",Southampton,"Sault Ste. Marie, Michigan, US",Unlikely
+164,165,0.0,3,male,4,1,3101295,39.6875,S,1.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US",Unlikely
+165,166,1.0,3,male,0,2,363291,20.525,S,9.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US",Confirmed
+166,167,1.0,1,female,0,1,113505,55.0,S,48.0,"St Leonards-on-Sea, East Sussex, England, UK",Southampton,"New York, New York, US",Confirmed
+167,168,0.0,3,female,1,4,347088,27.9,S,43.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+168,169,0.0,1,male,0,0,PC 17318,25.925,S,60.0,"New York, New York, US",Cherbourg,"New York, New York, US",Unlikely
+169,170,0.0,3,male,0,0,1601,56.4958,S,24.0,"Hong Kong, China",Southampton,New York City,Unlikely
+170,171,0.0,1,male,0,0,111240,33.5,S,61.0,"Brooklyn, New York, US",Belfast,"Brooklyn, New York, US",Unlikely
+171,172,0.0,3,male,4,1,382652,29.125,Q,4.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US",Unlikely
+172,173,1.0,3,female,1,1,347742,11.1333,S,1.0,"St. Charles, Illinois, US",Southampton,"St. Charles, Illinois, US",Confirmed
+173,174,0.0,3,male,0,0,STON/O 2. 3101280,7.925,S,21.0,"Mountain Home, Idaho, US",Southampton,"Mountain Home, Idaho, US",Unlikely
+174,175,0.0,1,male,0,0,17764,30.6958,C,56.0,"Paris, France",Cherbourg,"Long Island, New York, US",Unlikely
+175,176,0.0,3,male,1,1,350404,7.8542,S,18.0,"Grimshut, Småland, Sweden",Southampton,New York City,Unlikely
+176,177,0.0,3,male,3,1,4133,25.4667,S,5.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US",Unlikely
+177,178,0.0,1,female,0,0,PC 17595,28.7125,C,50.0,"Chicago, Illinois, US",Cherbourg,"Chicago, Illinois, US",Unlikely
+178,179,0.0,2,male,0,0,250653,13.0,S,30.0,"Auburn, New York, US",Southampton,"Auburn, New York, US",Unlikely
+179,180,0.0,3,male,0,0,LINE,0.0,S,36.0,"New York City, New York, US",Southampton,New York City,Unlikely
+180,181,0.0,3,female,8,2,CA. 2343,69.55,S,7.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+181,182,0.0,2,male,0,0,SC/PARIS 2131,15.05,C,39.0,"Paris, France",Cherbourg,"New York, New York, US",Unlikely
+182,183,0.0,3,male,4,2,347077,31.3875,S,9.0,"Alseda, Småland, Sweden",Southampton,"Worcester, Massachusetts, US",Unlikely
+183,184,1.0,2,male,2,1,230136,39.0,S,1.0,"Guntur, Madras Province, British India",Southampton,"Benton Harbor, Michigan, US",Confirmed
+184,185,1.0,3,female,0,2,315153,22.025,S,4.0,"Zürich, Switzerland",Southampton,"Milwaukee, Wisconsin, US",Confirmed
+185,186,0.0,1,male,0,0,113767,50.0,S,38.0,"Seattle, Washington, US",Southampton,"Seattle, Washington, US",Unlikely
+186,187,1.0,3,female,1,0,370365,15.5,Q,26.0,"Pallasgreen, Limerick, Ireland",Queenstown,New York City,Unconfirmed
+187,188,1.0,1,male,0,0,111428,26.55,S,45.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+188,189,0.0,3,male,1,1,364849,15.5,Q,42.0,"Carrowskehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Unlikely
+189,190,0.0,3,male,0,0,349247,7.8958,S,36.0,"Bratina, Croatia",Southampton,"Youngstown, Ohio, US",Unlikely
+190,191,1.0,2,female,0,0,234604,13.0,S,21.0,"Brooklyn, New York, US",Southampton,"Brooklyn, New York, US",Confirmed
+191,192,0.0,2,male,0,0,28424,13.0,S,19.0,"St. Ives, Cornwall, England",Southampton,"Houghton, Michigan, US",Unlikely
+192,193,1.0,3,female,1,0,350046,7.8542,S,19.0,"Eskilstrup, Denmark",Southampton,"Portland, Oregon, US",Confirmed
+193,194,1.0,2,male,1,1,230080,26.0,S,3.0,"Nice, France",Southampton,New York City,Confirmed
+194,195,1.0,1,female,0,0,PC 17610,27.7208,C,44.0,"Denver, Colorado, US",Cherbourg,"Denver, Colorado, US",Confirmed
+195,196,1.0,1,female,0,0,PC 17569,146.5208,C,59.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+196,197,0.0,3,male,0,0,368703,7.75,Q,26.0,"Ballywilliam, Wexford, Ireland",Queenstown,"Chicago, Illinois, US",Unlikely
+197,198,0.0,3,male,0,1,4579,8.4042,S,42.0,"Trondheim, Norway",Southampton,"Brooklyn, New York, US",Unlikely
+198,199,1.0,3,female,0,0,370370,7.75,Q,21.0,"Askeaton, Limerick, Ireland",Queenstown,New York City,Confirmed
+199,200,0.0,2,female,0,0,248747,13.0,S,24.0,"Paris, France",Southampton,"Montreal, Quebec, Canada",Unlikely
+200,201,0.0,3,male,0,0,345770,9.5,S,28.0,"Westrozebeke, Belgium",Southampton,New York City,Unlikely
+201,202,0.0,3,male,8,2,CA. 2343,69.55,S,16.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+202,203,0.0,3,male,0,0,3101264,6.4958,S,34.0,"Munsala, Finland",Southampton,"Vancouver, British Columbia, Canada",Unlikely
+203,204,0.0,3,male,0,0,2628,7.225,C,45.0,"Hardîne, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US",Unlikely
+204,205,1.0,3,male,0,0,A/5 3540,8.05,S,18.0,"London, England",Southampton,"Brooklyn, New York, US",Confirmed
+205,206,0.0,3,female,0,1,347054,10.4625,S,2.0,"Indiana Harbor, Indiana, US",Southampton,"Indiana Harbor, Indiana, US",Unlikely
+206,207,0.0,3,male,1,0,3101278,15.85,S,32.0,"Kotka, Finland",Southampton,New York City,Unlikely
+207,208,1.0,3,male,0,0,2699,18.7875,C,26.0,"Fredericksburg, Virginia, US",Cherbourg,"Fredericksburg, Virginia, US",Confirmed
+208,209,1.0,3,female,0,0,367231,7.75,Q,16.0,"Corglass, Longford, Ireland",Queenstown,New York City,Confirmed
+209,210,1.0,1,male,0,0,112277,31.0,C,39.0,"Glen Ridge, New Jersey, US",Cherbourg,"Glen Ridge, New Jersey, US",Confirmed
+210,211,0.0,3,male,0,0,SOTON/O.Q. 3101311,7.05,S,24.0,"Buenos Aires, Argentina",Southampton,New York City,Unlikely
+211,212,1.0,2,female,0,0,F.C.C. 13528,21.0,S,35.0,"London, England, UK",Southampton,"Mamaronek, New York, US",Confirmed
+212,213,0.0,3,male,0,0,A/5 21174,7.25,S,22.0,"Holsworthy, Devon, England",Southampton,"Saskatoon, Saskatchewan, Canada",Unlikely
+213,214,0.0,2,male,0,0,250646,13.0,S,30.0,"Kølsen, Vorde Sogn, Denmark",Southampton,"San Francisco, California, US",Unlikely
+214,215,0.0,3,male,1,0,367229,7.75,Q,22.0,"Aughnacliffe, Longford, Ireland",Queenstown,"Jersey City, New Jersey, US",Unlikely
+215,216,1.0,1,female,1,0,35273,113.275,C,31.0,"Lexington, Massachusetts, US",Cherbourg,"Lexington, Massachusetts, US",Confirmed
+216,217,1.0,3,female,0,0,STON/O2. 3101283,7.925,S,27.0,"Saarijärvi, Finland",Southampton,New York City,Unconfirmed
+217,218,0.0,2,male,1,0,243847,27.0,S,40.0,"London, England",Southampton,"Montreal, Quebec, Canada",Unlikely
+218,219,1.0,1,female,0,0,11813,76.2917,C,36.0,"Philadelphia, Pennsylvania, US",Cherbourg,"Philadelphia, Pennsylvania, US",Confirmed
+219,220,0.0,2,male,0,0,W/C 14208,10.5,S,30.0,"London, England",Southampton,New York City,Unlikely
+220,221,1.0,3,male,0,0,SOTON/OQ 392089,8.05,S,20.0,"London, England",Southampton,"Cleveland, Ohio, US",Confirmed
+221,222,0.0,2,male,0,0,220367,13.0,S,29.0,"Lake Arthur, New Mexico, US",Southampton,"Lake Arthur, New Mexico, US",Unlikely
+222,223,0.0,3,male,0,0,21440,8.05,S,40.0,"Dorking, Surrey, England",Southampton,"Lead, South Dakota, US",Unlikely
+223,224,0.0,3,male,0,0,349234,7.8958,S,22.0,"Unknown, Bulgaria",Southampton,"Coon Rapids, Iowa, US",Unlikely
+224,225,1.0,1,male,1,0,19943,90.0,S,35.0,"New York, New York, US",Southampton,"Stamford, Connecticut, US",Confirmed
+225,226,0.0,3,male,0,0,PP 4348,9.35,S,22.0,"Firtby, Finland",Southampton,New York City,Unlikely
+226,227,1.0,2,male,0,0,SW/PP 751,10.5,S,19.0,"Chelsea, London, England",Southampton,"Long Island, New York, US",Confirmed
+227,228,0.0,3,male,0,0,A/5 21173,7.25,S,20.0,"Northlew, Devon, England",Southampton,New York City,Unlikely
+228,229,0.0,2,male,0,0,236171,13.0,S,18.0,"Oslo, Norway",Southampton,"Bayonne, New Jersey, US",Unlikely
+229,230,0.0,3,female,3,1,4133,25.4667,S,12.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US",Unlikely
+230,231,1.0,1,female,1,0,36973,83.475,S,35.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+231,232,0.0,3,male,0,0,347067,7.775,S,29.0,"Nyköping, Södermanland, Sweden",Southampton,"Hartford, Connecticut, US",Unlikely
+232,233,0.0,2,male,0,0,237442,13.5,S,30.0,"Hjo, Västergötland, Sweden",Southampton,"Sault Ste Marie, Michigan, US",Confirmed
+233,234,1.0,3,female,4,2,347077,31.3875,S,5.0,"Alseda, Småland, Sweden",Southampton,"Worcester, Massachusetts, US",Confirmed
+234,235,0.0,2,male,0,0,C.A. 29566,10.5,S,25.0,"London, England",Southampton,New York City,Unlikely
+235,236,0.0,3,female,0,0,W./C. 6609,7.55,S,21.0,"Thornton Heath, London, England",Southampton,"New London, Connecticut, US",Unlikely
+236,237,0.0,2,male,1,0,26707,26.0,S,44.0,"Porthoustock, Cornwall, England",Southampton,"Sacramento, California, US",Unlikely
+237,238,1.0,2,female,0,2,C.A. 31921,26.25,S,8.0,"Bishopstoke, Hampshire, England",Southampton,"Payette, Idaho, US",Confirmed
+238,239,0.0,2,male,0,0,28665,10.5,S,19.0,"Gunnislake, Cornwall, England",Southampton,"Butte, Montana, US",Unlikely
+239,240,0.0,2,male,0,0,SCO/W 1585,12.275,S,33.0,"Philadelphia, Pennsylvania, US",Southampton,"Philadelphia, Pennsylvania, US",Unlikely
+240,241,0.0,3,female,1,0,2665,14.4542,C,19.0,"Unknown, Syria",Cherbourg,New York City,Unlikely
+241,242,1.0,3,female,1,0,367230,15.5,Q,18.0,"Aghnacliffe, Longford, Ireland",Queenstown,"Philadelphia, Pennsylvania, US",Confirmed
+242,243,0.0,2,male,0,0,W./C. 14263,10.5,S,29.0,"London, England",Southampton,"Detroit, Michigan, US",Unlikely
+243,244,0.0,3,male,0,0,STON/O 2. 3101275,7.125,S,22.0,"Kauhajoki, Finland",Southampton,"Sudbury, Ontario, Canada",Unlikely
+244,245,0.0,3,male,0,0,2694,7.225,C,30.0,"Ottawa, Ontario, Canada",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+245,246,0.0,1,male,2,0,19928,90.0,Q,44.0,"Fond du Lac, Wisconsin, US",Southampton,"Fond du Lac, Wisconsin, US",Unlikely
+246,247,0.0,3,female,0,0,347071,7.775,S,25.0,"Stockholm, Sweden",Southampton,"Saranac Lake, New York, US",Unlikely
+247,248,1.0,2,female,0,2,250649,14.5,S,24.0,"Detroit, Michigan, US",Southampton,"Detroit, Michigan, US",Confirmed
+248,249,1.0,1,male,1,1,11751,52.5542,S,37.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+249,250,0.0,2,male,1,0,244252,26.0,S,54.0,"London, England, UK",Southampton,New York City,Unlikely
+250,251,0.0,3,male,0,0,362316,7.25,S,19.0,"Penarth, Glamorgan, Wales",Southampton,New York City,Unlikely
+251,252,0.0,3,female,1,1,347054,10.4625,S,29.0,"Indiana Harbor, Indiana, US",Southampton,"Indiana Harbor, Indiana, US",Unlikely
+252,253,0.0,1,male,0,0,113514,26.55,S,62.0,"London, England, UK",Southampton,"New York, New York, US",Unlikely
+253,254,0.0,3,male,1,0,A/5. 3336,16.1,S,30.0,"Scranton, Pennsylvania, US",Southampton,"Scranton, Pennsylvania, US",Unlikely
+254,255,0.0,3,female,0,2,370129,20.2125,S,41.0,"Suistamo, Finland",Southampton,"Astoria, Oregon, US",Unlikely
+255,256,1.0,3,female,0,2,2650,15.2458,C,27.0,"Tibnin, Lebanon",Cherbourg,"Dowagiac, Michigan, US",Confirmed
+256,257,1.0,1,female,0,0,PC 17585,79.2,C,37.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+257,258,1.0,1,female,0,0,110152,86.5,S,30.0,"London, England, UK",Southampton,"Vancouver, British Columbia, Canada",Confirmed
+258,259,1.0,1,female,0,0,PC 17755,512.3292,C,38.0,"Germantown, Pennsylvania, US",Cherbourg,"Germantown, Pennsylvania, US",Confirmed
+259,260,1.0,2,female,0,1,230433,26.0,S,60.0,"Woodford County, Kentucky, US",Southampton,"Woodford County, Kentucky, US",Confirmed
+260,261,0.0,3,male,0,0,384461,7.75,Q,26.0,"Caltra, Galway, Ireland",Queenstown,"Hammond, Indiana, US",Unlikely
+261,262,1.0,3,male,4,2,347077,31.3875,S,3.0,"Alseda, Småland, Sweden",Southampton,"Worcester, Massachusetts, US",Confirmed
+262,263,0.0,1,male,1,1,110413,79.65,S,52.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+263,264,0.0,1,male,0,0,112059,0.0,S,45.0,"Wallasey, Merseyside, England, UK",Southampton,"New York, New York, US",Unlikely
+264,265,0.0,3,female,0,0,382649,7.75,Q,23.0,"Clonown, Roscommon, Ireland",Queenstown,"Boston, Massachusetts, US",Unlikely
+265,266,0.0,2,male,0,0,C.A. 17248,10.5,S,36.0,"Slinfold, West Sussex, England",Southampton,New York City,Unlikely
+266,267,0.0,3,male,4,1,3101295,39.6875,S,16.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US",Unlikely
+267,268,1.0,3,male,1,0,347083,7.775,S,25.0,"Stockholm, Uppland, Sweden",Southampton,"Indianapolis, Indiana, US",Confirmed
+268,269,1.0,1,female,0,1,PC 17582,153.4625,S,59.0,"Greenwich, Connecticut, US",Southampton,"Greenwich, Connecticut, US",Confirmed
+269,270,1.0,1,female,0,0,PC 17760,135.6333,S,39.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+270,271,0.0,1,male,0,0,113798,31.0,S,28.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US",Unlikely
+271,272,1.0,3,male,0,0,LINE,0.0,S,25.0,"Sundbyberg, Sweden",Southampton,New York City,Confirmed
+272,273,1.0,2,female,0,1,250644,19.5,S,41.0,"Wimbledon, London, England",Southampton,"Bennington, Vermont, US",Confirmed
+273,274,0.0,1,male,0,1,PC 17596,29.7,C,36.0,"Brooklyn, New York, US",Cherbourg,"Brooklyn, New York, US",Unlikely
+274,275,1.0,3,female,0,0,370375,7.75,Q,29.0,"Athenry, Galway, Ireland",Queenstown,New York City,Confirmed
+275,276,1.0,1,female,1,0,13502,77.9583,S,62.0,"Hudson, New York, US",Cherbourg,"Hudson, New York, US",Confirmed
+276,277,0.0,3,female,0,0,347073,7.75,S,45.0,"Stockholm, Sweden",Southampton,"Stratford, Connecticut, US",Unlikely
+277,278,0.0,2,male,0,0,239853,0.0,S,18.0,"Belfast, Ireland",Belfast,New York City,Unlikely
+278,279,0.0,3,male,4,1,382652,29.125,Q,7.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US",Unlikely
+279,280,1.0,3,female,1,1,C.A. 2673,20.25,S,39.0,"East Providence, Rhode Island, US",Southampton,"East Providence, Rhode Island, US",Confirmed
+280,281,0.0,3,male,0,0,336439,7.75,Q,65.0,"Bunmahon, Waterford, Ireland",Queenstown,"Morris Plains, New Jersey, US",Unlikely
+281,282,0.0,3,male,0,0,347464,7.8542,S,28.0,"Eslöv, Skåne, Sweden",Southampton,New York City,Unlikely
+282,283,0.0,3,male,0,0,345778,9.5,S,16.0,"Heldergem, Haaltert, East Flanders, Belgium",Southampton,"Gladstone, Michigan, US",Unlikely
+283,284,1.0,3,male,0,0,A/5. 10482,8.05,S,18.0,"Liss, Hampshire, England",Southampton,"Oglesby, Illinois, US",Confirmed
+284,285,0.0,1,male,0,0,113056,26.0,S,57.0,"Streatham, London, England, UK",Southampton,"New York, New York, US",Unlikely
+285,286,0.0,3,male,0,0,349239,8.6625,C,33.0,"Galdovo, Croatia",Cherbourg,New York City,Unlikely
+286,287,1.0,3,male,0,0,345774,9.5,S,36.0,"Aspelare, East Flanders, Belgium",Southampton,"Detroit, Michigan, US",Confirmed
+287,288,0.0,3,male,0,0,349206,7.8958,S,22.0,"Gumostnik, Lovech, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+288,289,1.0,2,male,0,0,237798,13.0,S,41.0,"Tokyo, Japan",Southampton,"Tokyo, Japan",Confirmed
+289,290,1.0,3,female,0,0,370373,7.75,Q,22.0,"Cortrasna, Cavan, Ireland",Queenstown,New York City,Confirmed
+290,291,1.0,1,female,0,0,19877,78.85,S,26.0,"London, England, UK",Southampton,"New York, New York, US",Confirmed
+291,292,1.0,1,female,1,0,11967,91.0792,C,19.0,"Dowagiac, Michigan, US",Cherbourg,"Dowagiac, Michigan, US",Confirmed
+292,293,0.0,2,male,0,0,SC/Paris 2163,12.875,C,36.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada",Unlikely
+293,294,0.0,3,female,0,0,349236,8.85,S,24.0,"Altdorf, Uri, Switzerland",Southampton,"Chicago, Illinois, US",Unlikely
+294,295,0.0,3,male,0,0,349233,7.8958,S,24.0,"Unknown, Bulgaria",Southampton,"Coon Rapids, Iowa, US",Unlikely
+295,296,0.0,1,male,0,0,PC 17612,27.7208,C,31.0,"Chicago, Illinois, US",Cherbourg,"Chicago, Illinois, US",Unlikely
+296,297,0.0,3,male,0,0,2693,7.2292,C,35.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+297,298,0.0,1,female,1,2,113781,151.55,S,2.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Unlikely
+298,299,1.0,1,male,0,0,19988,30.5,S,47.0,"Manchester, England, UK",Southampton,"New York, New York, US",Confirmed
+299,300,1.0,1,female,0,1,PC 17558,247.5208,C,50.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada",Confirmed
+300,301,1.0,3,female,0,0,9234,7.75,Q,20.0,"Cuilmullagh, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Confirmed
+301,302,1.0,3,male,2,0,367226,23.25,Q,24.0,"Carrickatane, Tyrone, Ireland",Queenstown,"Brooklyn, New York, US",Confirmed
+302,303,0.0,3,male,0,0,LINE,0.0,S,19.0,"Hawthorne, New Jersey, US",Southampton,New York City,Unlikely
+303,304,1.0,2,female,0,0,226593,12.35,Q,46.0,"Castleconnell, Limerick, Ireland[note 1]",Queenstown,"Harrisburg, Pennsylvania, US",Confirmed
+304,305,0.0,3,male,0,0,A/5 2466,8.05,S,28.0,"Guernsey, Channel Islands, Channel Islands",Southampton,New York City,Unlikely
+305,306,1.0,1,male,1,2,113781,151.55,S,0.92,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Confirmed
+306,307,1.0,1,female,0,0,17421,110.8833,C,42.0,"Haverford, Pennsylvania, US",Cherbourg,"Haverford, Pennsylvania, US",Confirmed
+307,308,1.0,1,female,1,0,PC 17758,108.9,C,22.0,"Madrid, Spain",Cherbourg,"New York, New York, US",Confirmed
+308,309,0.0,2,male,1,0,P/PP 3381,24.0,C,30.0,Russia,Cherbourg,"New York, New York, US",Unlikely
+309,310,1.0,1,female,0,0,PC 17485,56.9292,C,31.0,"London, England, UK",Cherbourg,"New York, New York, US",Confirmed
+310,311,1.0,1,female,0,0,11767,83.1583,C,24.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+311,312,1.0,1,female,2,2,PC 17608,262.375,C,18.0,"Cooperstown, New York, US",Cherbourg,"Cooperstown, New York, US",Confirmed
+312,313,0.0,2,female,1,1,250651,26.0,S,26.0,"Minneapolis, Minnesota, US",Southampton,"Minneapolis, Minnesota, US",Unlikely
+313,314,0.0,3,male,0,0,349243,7.8958,S,28.0,"Vagovina, Croatia",Southampton,"Harrisburg, Pennsylvania, US",Unlikely
+314,315,0.0,2,male,1,1,F.C.C. 13529,26.25,S,47.0,"Ilford, Essex, England",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+315,316,1.0,3,female,0,0,347470,7.8542,S,26.0,"Ramkvilla, Småland, Sweden",Southampton,"Joliet, Illinois, US",Confirmed
+316,317,1.0,2,female,1,0,244367,26.0,S,24.0,"Vitebsk, Russian Empire",Southampton,"Bronx, New York, US",Confirmed
+317,318,0.0,2,male,0,0,29011,14.0,S,54.0,"Frankfort, Kentucky, US",Southampton,"Frankfort, Kentucky, US",Unlikely
+318,319,1.0,1,female,0,2,36928,164.8667,S,31.0,"Youngstown, Ohio, US",Southampton,"Youngstown, Ohio, US",Confirmed
+319,320,1.0,1,female,1,1,16966,134.5,C,39.0,"Tuxedo Park, New York, US",Cherbourg,"Tuxedo Park, New York, US",Confirmed
+320,321,0.0,3,male,0,0,A/5 21172,7.25,S,22.0,"Week St Mary, Cornwall, England",Southampton,"Saskatoon, Saskatchewan, Canada",Unlikely
+321,322,0.0,3,male,0,0,349219,7.8958,S,27.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+322,323,1.0,2,female,0,0,234818,12.35,Q,30.0,"Halifax, Nova Scotia, Canada",Queenstown,"Vancouver, British Columbia, Canada",Confirmed
+323,324,1.0,2,female,1,1,248738,29.0,S,28.0,"Bangkok, Siam",Southampton,"Roseville, Illinois, US",Confirmed
+324,325,0.0,3,male,8,2,CA. 2343,69.55,S,19.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+325,326,1.0,1,female,0,0,PC 17760,135.6333,C,36.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+326,327,0.0,3,male,0,0,345364,6.2375,S,61.0,"Øyer, Norway",Southampton,"Grand Forks, North Dakota, US",Unlikely
+327,328,1.0,2,female,0,0,28551,13.0,S,36.0,"Bristol, Avon, England",Southampton,"Jacksonville, Florida, US",Confirmed
+328,329,1.0,3,female,1,1,363291,20.525,S,31.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US",Confirmed
+329,330,1.0,1,female,0,1,111361,57.9792,C,17.0,"Chicago, Illinois, US",Cherbourg,"Chicago, Illinois, US",Confirmed
+330,331,1.0,3,female,2,0,367226,23.25,Q,29.0,"Carrickatane, Tyrone, Ireland",Queenstown,"Brooklyn, New York, US",Confirmed
+331,332,0.0,1,male,0,0,113043,28.5,S,40.0,"Tolworth, London, England, UK",Southampton,"Toronto, Ontario, Canada",Unlikely
+332,333,0.0,1,male,0,1,PC 17582,153.4625,S,38.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+333,334,0.0,3,male,2,0,345764,18.0,S,15.0,"Zwevezele, Belgium",Southampton,"Fremont, Ohio, US",Unlikely
+334,335,1.0,1,female,1,0,PC 17611,133.65,S,42.0,"London, England, UK",Southampton,"New York, New York, US",Confirmed
+335,336,0.0,3,male,0,0,349225,7.8958,S,30.0,"Unknown, Bulgaria",Southampton,"Coon Rapids, Iowa, US",Unlikely
+336,337,0.0,1,male,1,0,113776,66.6,S,29.0,"Isleworth, London, England, UK",Southampton,"New York, New York, US",Unlikely
+337,338,1.0,1,female,0,0,16966,134.5,C,41.0,"Tuxedo Park, New York, US",Cherbourg,"Tuxedo Park, New York, US",Confirmed
+338,339,1.0,3,male,0,0,7598,8.05,S,45.0,"Adelaide, South Australia, Australia",Southampton,"Fingal, North Dakota, US",Confirmed
+339,340,0.0,1,male,0,0,113784,35.5,S,45.0,"Trenton, New Jersey, US",Southampton,"Trenton, New Jersey, US",Unlikely
+340,341,1.0,2,male,1,1,230080,26.0,S,2.0,"Nice, France",Southampton,New York City,Confirmed
+341,342,1.0,1,female,3,2,19950,263.0,S,24.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada",Confirmed
+342,343,0.0,2,male,0,0,248740,13.0,S,27.0,"Helsinki, Finland, Russian Empire[note 6]",Southampton,"Ashtabula, Ohio, US",Unlikely
+343,344,0.0,2,male,0,0,244361,13.0,S,25.0,"Liverpool, Merseyside, England",Southampton,"Minatitlán, Veracruz, Mexico",Unlikely
+344,345,0.0,2,male,0,0,229236,13.0,S,38.0,"Rochester, New York, US",Southampton,"Rochester, New York, US",Unlikely
+345,346,1.0,2,female,0,0,248733,13.0,S,18.0,"London, England, UK",Southampton,"Montreal, Quebec, Canada",Confirmed
+346,347,1.0,2,female,0,0,31418,13.0,S,39.0,"Basingstoke, Hampshire, England",Southampton,"Washington, DC US",Confirmed
+348,349,1.0,3,male,1,1,C.A. 37671,15.9,S,9.0,"London, England",Southampton,"Brooklyn, New York, US",Confirmed
+349,350,0.0,3,male,0,0,315088,8.6625,S,42.0,"Ostrovica, Croatia",Southampton,"Red Lodge, Montana, US",Unlikely
+350,351,0.0,3,male,0,0,7267,9.225,S,23.0,"Örsjö, Kalmar, Sweden",Southampton,"Peoria, Illinois, US",Unlikely
+351,352,0.0,1,male,0,0,113510,35.0,S,43.0,"London, England, UK",Southampton,"Newark, New Jersey, US",Unlikely
+352,353,0.0,3,male,1,1,2695,7.2292,C,17.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+353,354,0.0,3,male,1,0,349237,17.8,S,25.0,"Altdorf, Uri, Switzerland",Southampton,"New Glarus, Wisconsin, US",Unlikely
+354,355,0.0,3,male,0,0,2647,7.225,C,25.0,"Tebnin, Lebanon",Cherbourg,New York City,Unlikely
+355,356,0.0,3,male,0,0,345783,9.5,S,28.0,"Haaltert, Belgium",Southampton,New York City,Unlikely
+356,357,1.0,1,female,0,1,113505,55.0,S,22.0,"St Leonards-on-Sea, East Sussex, England, UK",Southampton,"New York, New York, US",Confirmed
+357,358,0.0,2,female,0,0,237671,13.0,S,38.0,"Janjgir-Champa, British India, UK[note 3]",Southampton,"Bally, Pennsylvania, US",Unlikely
+358,359,1.0,3,female,0,0,330931,7.8792,Q,22.0,"Corlough, Cavan, Ireland",Queenstown,New York City,Confirmed
+359,360,1.0,3,female,0,0,330980,7.8792,Q,23.0,"Currafarry, Galway, Ireland",Queenstown,New York City,Confirmed
+360,361,0.0,3,male,1,4,347088,27.9,S,40.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+361,362,0.0,2,male,1,0,SC/PARIS 2167,27.7208,C,29.0,"Montecarlo, Lucca, Tuscany, Italy",Cherbourg,"Chicago, Illinois, US",Unlikely
+362,363,0.0,3,female,0,1,2691,14.4542,C,45.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+363,364,0.0,3,male,0,0,SOTON/O.Q. 3101310,7.05,S,35.0,"Buenos Aires, Argentina",Southampton,New York City,Unlikely
+364,365,0.0,3,male,1,0,370365,15.5,Q,27.0,"Pallasgreen, Limerick, Ireland",Queenstown,"Chicago, Illinois, US",Unlikely
+365,366,0.0,3,male,0,0,C 7076,7.25,S,30.0,"Asarum, Småland, Sweden",Southampton,"Brooklyn, New York, US",Unlikely
+366,367,1.0,1,female,1,0,110813,75.25,C,60.0,"Portland, Oregon, US",Cherbourg,"Portland, Oregon, US",Confirmed
+367,368,1.0,3,female,0,0,2626,7.2292,C,35.0,"Hardîne, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US",Unconfirmed
+368,369,1.0,3,female,0,0,14313,7.75,Q,26.0,"Ballydehob, Cork, Ireland",Queenstown,"East Lynn, Massachusetts, US",Confirmed
+369,370,1.0,1,female,0,0,PC 17477,69.3,C,24.0,"Paris, France",Cherbourg,"New York, New York, US",Confirmed
+370,371,1.0,1,male,1,0,11765,55.4417,C,25.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+371,372,0.0,3,male,1,0,3101267,6.4958,S,18.0,"Vaasa, Finland",Southampton,"Montreal, Quebec, Canada",Unlikely
+372,373,0.0,3,male,0,0,323951,8.05,S,18.0,"Fillingham, Lincolnshire, England",Southampton,"Russell, US",Unlikely
+373,374,0.0,1,male,0,0,PC 17760,135.6333,C,22.0,"New York, New York, US",Cherbourg,"New York, New York, US",Unlikely
+374,375,0.0,3,female,3,1,349909,21.075,S,3.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+375,376,1.0,1,female,1,0,PC 17604,82.1708,C,25.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+376,377,1.0,3,female,0,0,C 7077,7.25,S,22.0,"Karlshamn, Blekinge, Sweden",Southampton,New York City,Confirmed
+377,378,0.0,1,male,0,2,113503,211.5,C,27.0,"Philadelphia, Pennsylvania, US",Southampton,"Philadelphia, Pennsylvania, US",Unlikely
+378,379,0.0,3,male,0,0,2648,4.0125,C,20.0,"Zgharta, Lebanon",Cherbourg,"Waterbury, Connecticut, US",Unlikely
+379,380,0.0,3,male,0,0,347069,7.775,S,19.0,"Myren, Synnerby, Västergötland, Sweden",Southampton,"Aberdeen, South Dakota, US",Unlikely
+380,381,1.0,1,female,0,0,PC 17757,227.525,C,46.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+381,382,1.0,3,female,0,2,2653,15.7417,C,1.0,"Zgharta, Lebanon",Cherbourg,"Waterbury, Connecticut, US",Confirmed
+382,383,0.0,3,male,0,0,STON/O 2. 3101293,7.925,S,32.0,"Pielavesi, Finland",Southampton,New York City,Unlikely
+383,384,1.0,1,female,1,0,113789,52.0,S,35.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+384,385,0.0,3,male,0,0,349227,7.8958,S,27.0,"Unknown, Bulgaria",Southampton,"Tulsa, Oklahoma, US",Unlikely
+385,386,0.0,2,male,0,0,S.O.C. 14879,73.5,S,21.0,"Lyndhurst, Hampshire, England",Southampton,"Eden, Manitoba, Canada",Unlikely
+386,387,0.0,3,male,5,2,CA 2144,46.9,S,1.0,"Fulham, England",Southampton,"Niagara Falls, New York, US",Unlikely
+387,388,1.0,2,female,0,0,27849,13.0,S,36.0,"Sittingbourne, Kent, England",Southampton,"San Francisco, US",Confirmed
+388,389,0.0,3,male,0,0,367655,7.7292,Q,20.0,"Mohill, Leitrim, Ireland",Queenstown,"Lakewood Township, New Jersey, US",Unlikely
+389,390,1.0,2,female,0,0,SC 1748,12.0,C,17.0,"Lotzwil, Switzerland",Cherbourg,"Central City, Iowa, US",Confirmed
+390,391,1.0,1,male,1,2,113760,120.0,S,36.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US",Confirmed
+391,392,1.0,3,male,0,0,350034,7.7958,S,21.0,"Örebro, Sweden",Southampton,"Swedeburg, Nebraska, US",Confirmed
+392,393,0.0,3,male,2,0,3101277,7.925,S,28.0,"Ruotsinpyhtää, Finland",Southampton,New York City,Unlikely
+393,394,1.0,1,female,1,0,35273,113.275,C,23.0,"Lexington, Massachusetts, US",Cherbourg,"Lexington, Massachusetts, US",Confirmed
+394,395,1.0,3,female,0,2,PP 9549,16.7,S,24.0,"Motala, Östergötland, Sweden",Southampton,"San Francisco, US",Confirmed
+395,396,0.0,3,male,0,0,350052,7.7958,S,22.0,"Frostensmåla, Småland, Sweden",Southampton,"St. Paul, Minnesota, US",Unlikely
+396,397,0.0,3,female,0,0,350407,7.8542,S,31.0,"Södra Brantevik, Sweden",Southampton,"St. Paul, Minnesota, US",Unlikely
+397,398,0.0,2,male,0,0,28403,26.0,S,46.0,"Guernsey, Channel Islands",Southampton,"Rochester, New York, US",Unlikely
+398,399,0.0,2,male,0,0,244278,10.5,S,23.0,"Hamilton, Ontario, Canada",Southampton,"Hamilton, Ontario, Canada",Unlikely
+399,400,1.0,2,female,0,0,240929,12.65,S,26.0,"Columbus, Ohio, US",Southampton,"Columbus, Ohio, US",Confirmed
+400,401,1.0,3,male,0,0,STON/O 2. 3101289,7.925,S,39.0,"Kivijärvi, Finland",Southampton,"Boston, Massachusetts, US",Confirmed
+401,402,0.0,3,male,0,0,341826,8.05,S,26.0,"Bournemouth, Dorset, England",Southampton,"La Porte City, Iowa, US",Unlikely
+402,403,0.0,3,female,1,0,4137,9.825,S,21.0,"Paavola, Northern Ostrobothnia, Finland",Southampton,New York City,Unlikely
+403,404,0.0,3,male,1,0,STON/O2. 3101279,15.85,S,28.0,"Helsinki, Finland",Southampton,"Monessen, Pennsylvania, US",Unlikely
+404,405,0.0,3,female,0,0,315096,8.6625,S,20.0,"Konjsko Brdo, Croatia",Southampton,"Chicago, Illinois, US",Unlikely
+405,406,0.0,2,male,1,0,28664,21.0,S,33.0,"Harrowbarrow, Cornwall, England",Southampton,"Clear Creek, Colorado, US",Unlikely
+406,407,0.0,3,male,0,0,347064,7.75,S,51.0,"Algutsrum, Kalmar, Sweden",Southampton,New York City,Unlikely
+407,408,1.0,2,male,1,1,29106,18.75,S,3.0,"Penzance, Cornwall, England",Southampton,"Akron, Ohio, US",Confirmed
+408,409,0.0,3,male,0,0,312992,7.775,S,21.0,"Bremnes, Norway",Southampton,New York City,Unlikely
+409,410,0.0,3,female,3,1,4133,25.4667,S,3.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US",Unlikely
+410,411,0.0,3,male,0,0,349222,7.8958,S,42.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+411,412,0.0,3,male,0,0,394140,6.8583,Q,27.0,"Ballysadare, Sligo, Ireland",Queenstown,"Boston, Massachusetts, US",Unlikely
+412,413,1.0,1,female,1,0,19928,90.0,Q,33.0,"Fond du Lac, Wisconsin, US",Southampton,"Fond du Lac, Wisconsin, US",Confirmed
+413,414,0.0,2,male,0,0,239853,0.0,S,21.0,"Belfast, Ireland",Belfast,New York City,Unlikely
+414,415,1.0,3,male,0,0,STON/O 2. 3101269,7.925,S,44.0,"Munsala, Finland",Southampton,"Cheyenne, Wyoming, US",Confirmed
+415,416,0.0,3,female,0,0,343095,8.05,S,31.0,"Penarth, Glamorgan, Wales",Southampton,New York City,Unlikely
+416,417,1.0,2,female,1,1,28220,32.5,S,34.0,"Greenport, New York, US",Southampton,"Greenport, New York, US",Confirmed
+417,418,1.0,2,female,0,2,250652,13.0,S,17.0,"Tornio, Finland, Russian Empire[note 6]",Southampton,"Minneapolis, Minnesota, US",Confirmed
+418,419,0.0,2,male,0,0,28228,13.0,S,30.0,"St Austell, Cornwall, England",Southampton,"La Salle, Illinois, US",Unlikely
+419,420,0.0,3,female,0,2,345773,24.15,S,10.0,"Kerksken, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+421,422,0.0,3,male,0,0,A/5. 13032,7.7333,Q,28.0,"Ballinalee, Longford, Ireland",Queenstown,New York City,Unlikely
+422,423,0.0,3,male,0,0,315082,7.875,S,29.0,"Todtmoos, Germany",Southampton,"Saskatoon, Saskatchewan, Canada",Unlikely
+423,424,0.0,3,female,1,1,347080,14.4,S,28.0,"Göteborg, Västergötland, Sweden",Southampton,"Stanton, Iowa, US",Unlikely
+424,425,0.0,3,male,1,1,370129,20.2125,S,18.0,"Suistamo, Finland",Southampton,"Astoria, Oregon, US",Unlikely
+425,426,0.0,3,male,0,0,A/4. 34244,7.25,S,54.0,"London, England",Southampton,"Quebec City, Quebec, Canada",Unlikely
+426,427,1.0,2,female,1,0,2003,26.0,S,28.0,"Netley Abbey, Hampshire, England",Southampton,"San Francisco, California, US",Confirmed
+427,428,1.0,2,female,0,0,250655,26.0,S,19.0,"Birmingham, Worcester, England",Southampton,"Los Angeles, US",Confirmed
+428,429,0.0,3,male,0,0,364851,7.75,Q,28.0,"Cuilkillew, Mayo, Ireland",Queenstown,New York City,Unlikely
+429,430,1.0,3,male,0,0,SOTON/O.Q. 392078,8.05,S,32.0,"Warsaw, Poland",Southampton,"San Francisco, US",Confirmed
+430,431,1.0,1,male,0,0,110564,26.55,S,28.0,"Stockholm, Sweden",Southampton,"Washington, DC, US",Confirmed
+431,432,1.0,3,female,1,0,376564,16.1,S,32.0,"Maidstone, Kent, England",Southampton,"Clinton, New York, US",Confirmed
+432,433,1.0,2,female,1,0,SC/AH 3085,26.0,S,42.0,"Weston-super-Mare, North Somerset, England",Southampton,New York City,Confirmed
+433,434,0.0,3,male,0,0,STON/O 2. 3101274,7.125,S,17.0,"Kauhajoki, Finland",Southampton,"Sudbury, Ontario, Canada",Unlikely
+434,435,0.0,1,male,1,0,13507,55.9,S,50.0,"Duluth, Minnesota, US",Cherbourg,"Duluth, Minnesota, US",Unlikely
+435,436,1.0,1,female,1,2,113760,120.0,S,13.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US",Confirmed
+436,437,0.0,3,female,2,2,W./C. 6608,34.375,S,20.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US",Unlikely
+437,438,1.0,2,female,2,3,29106,18.75,S,23.0,"Penzance, Cornwall, England",Southampton,"Akron, Ohio, US",Confirmed
+438,439,0.0,1,male,1,4,19950,263.0,S,64.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+439,440,0.0,2,male,0,0,C.A. 18723,10.5,S,31.0,"Trollhättan, Västergötland, Sweden",Southampton,"Arlington, Virginia, US",Unlikely
+440,441,1.0,2,female,1,1,F.C.C. 13529,26.25,S,48.0,"Ilford, Essex, England",Southampton,"Winnipeg, Manitoba, Canada",Confirmed
+441,442,0.0,3,male,0,0,345769,9.5,S,19.0,"Westrozebeke, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+442,443,0.0,3,male,1,0,347076,7.775,S,25.0,"Västermo, Södermanland, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+443,444,1.0,2,female,0,0,230434,13.0,S,28.0,"Marbella, Spain",Southampton,New York City,Confirmed
+444,445,1.0,3,male,0,0,65306,8.1125,S,29.0,"Avaldsnes, Stavanger, Norway",Southampton,New York City,Confirmed
+445,446,1.0,1,male,0,2,33638,81.8583,S,4.0,"San Francisco, California, US",Southampton,"San Francisco, California, US",Confirmed
+446,447,1.0,2,female,0,1,250644,19.5,S,13.0,"Wimbledon, London, England",Southampton,"Bennington, Vermont, US",Confirmed
+447,448,1.0,1,male,0,0,113794,26.55,S,34.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+448,449,1.0,3,female,2,1,2666,19.2583,C,5.0,"Ḑuhūr ash Shuwayr, Lebanon",Cherbourg,"Brooklyn, New York, US",Confirmed
+449,450,1.0,1,male,0,0,113786,30.5,S,52.0,"Toronto, Ontario, Canada",Southampton,"Toronto, Ontario, Canada",Confirmed
+450,451,0.0,2,male,1,2,C.A. 34651,27.75,S,36.0,"Bournemouth, Dorset, England",Southampton,"Gainesville, Florida, US",Unlikely
+451,452,0.0,3,male,1,0,65303,19.9667,S,28.0,"Skaare, Haugesund, Norway",Southampton,"Belmar, New Jersey, US",Unlikely
+452,453,0.0,1,male,0,0,113051,27.75,C,30.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+453,454,1.0,1,male,1,0,17453,89.1042,C,47.0,"Paris, France",Cherbourg,"New York, New York, US",Confirmed
+454,455,0.0,3,male,0,0,A/5 2817,8.05,S,24.0,"London, England",Southampton,New York City,Unlikely
+455,456,1.0,3,male,0,0,349240,7.8958,C,29.0,"Topolovac, Croatia",Cherbourg,"Galesburg, Illinois, US",Confirmed
+456,457,0.0,1,male,0,0,13509,26.55,S,65.0,"East Bridgewater, Massachusetts, US",Cherbourg,"East Bridgewater, Massachusetts, US",Unlikely
+457,458,1.0,1,female,1,0,17464,51.8625,S,31.0,"Pittsburgh, Pennsylvania, US",Southampton,"Pittsburgh, Pennsylvania, US",Confirmed
+458,459,1.0,2,female,0,0,F.C.C. 13531,10.5,S,48.0,"Indianapolis, Indiana, US",Southampton,"Indianapolis, Indiana, US",Confirmed
+459,460,0.0,3,male,0,0,371060,7.75,Q,16.0,"Boherbue, Cork, Ireland",Queenstown,New York City,Unlikely
+460,461,1.0,1,male,0,0,19952,26.55,S,47.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+461,462,0.0,3,male,0,0,364506,8.05,S,34.0,"Petworth, West Sussex, England",Southampton,New York City,Unlikely
+462,463,0.0,1,male,0,0,111320,38.5,S,47.0,"St Annes-on-Sea, Lancashire, England, UK",Southampton,"Mexico City, Mexico",Unlikely
+463,464,0.0,2,male,0,0,234360,13.0,S,48.0,"Odense, Denmark",Southampton,"Oregon, Wisconsin, US",Unlikely
+464,465,0.0,3,male,0,0,A/S 2816,8.05,S,34.0,"London, England",Southampton,New York City,Unlikely
+465,466,0.0,3,male,0,0,SOTON/O.Q. 3101306,7.05,S,37.0,"Calheta, Madeira, Portugal",Southampton,New York City,Unlikely
+466,467,0.0,2,male,0,0,239853,0.0,S,21.0,"Belfast, Ireland",Belfast,New York City,Unlikely
+467,468,0.0,1,male,0,0,113792,26.55,S,56.0,"Kildale, North Yorkshire, England, UK",Southampton,"New York, New York, US",Unlikely
+468,469,0.0,3,male,0,0,36209,7.725,Q,22.0,"Rathkeale, Limerick, Ireland",Queenstown,New York City,Unlikely
+469,470,1.0,3,female,2,1,2666,19.2583,C,0.75,"Ḑuhūr ash Shuwayr, Lebanon",Cherbourg,"Brooklyn, New York, US",Confirmed
+470,471,0.0,3,male,0,0,323592,7.25,S,39.0,"Rahway, New Jersey, US",Southampton,"Rahway, New Jersey, US",Confirmed
+471,472,0.0,3,male,0,0,315089,8.6625,S,38.0,"Široka Kula, Croatia",Southampton,"Chicago, Illinois, US",Unlikely
+472,473,1.0,2,female,1,2,C.A. 34651,27.75,S,33.0,"Bournemouth, Dorset, England",Southampton,"Gainesville, Florida, US",Confirmed
+473,474,1.0,2,female,0,0,SC/AH Basle 541,13.7917,C,23.0,New York City,Southampton,New York City,Confirmed
+474,475,0.0,3,female,0,0,7553,9.8375,S,22.0,"Turku, Finland",Southampton,New York City,Unlikely
+475,476,0.0,1,male,0,0,110465,52.0,S,40.0,"Stoughton, Massachusetts, US",Southampton,"Stoughton, Massachusetts",Unlikely
+476,477,0.0,2,male,1,0,31027,21.0,S,33.0,"Elizabeth, New Jersey, US",Southampton,"Elizabeth, New Jersey, US",Unlikely
+477,478,0.0,3,male,1,0,3460,7.0458,S,29.0,"Bridgerule, Devon, England",Southampton,"Qu'Appelle Valley, Saskatchewan, Canada",Unlikely
+478,479,0.0,3,male,0,0,350060,7.5208,S,22.0,"Örebro, Sweden",Southampton,"Palmer, Massachusetts, US",Unlikely
+479,480,1.0,3,female,0,1,3101298,12.2875,S,2.0,"Taalintehdas, Finland",Southampton,"Monessen, Pennsylvania, US",Confirmed
+480,481,0.0,3,male,5,2,CA 2144,46.9,S,10.0,"Fulham, England",Southampton,"Niagara Falls, New York, US",Unlikely
+481,482,0.0,2,male,0,0,239854,0.0,S,37.0,"Belfast, Northern Ireland, UK",Belfast,New York City,Unlikely
+482,483,0.0,3,male,0,0,A/5 3594,8.05,S,50.0,"Sittingbourne, Kent, England",Southampton,"Cleveland, Ohio, US",Unlikely
+483,484,1.0,3,female,0,0,4134,9.5875,S,63.0,"Jalasjärvi, Southern Ostrobothnia, Finland",Southampton,"Hibbing, Minnesota, US",Confirmed
+484,485,1.0,1,male,1,0,11967,91.0792,C,25.0,"Dowagiac, Michigan, US",Cherbourg,"Dowagiac, Michigan, US",Confirmed
+485,486,0.0,3,female,3,1,4133,25.4667,S,8.0,"Liévin, Pas-de-Calais, France",Southampton,"Mystic, Iowa, US",Unlikely
+486,487,1.0,1,female,1,0,19943,90.0,S,31.0,"New York, New York, US",Southampton,"Stamford, Connecticut, US",Confirmed
+487,488,0.0,1,male,0,0,11771,29.7,C,58.0,"Buffalo, New York, US",Cherbourg,"Buffalo, New York, US",Unlikely
+488,489,0.0,3,male,0,0,A.5. 18509,8.05,S,30.0,"Greatfield, Cheltenham, England",Southampton,"Canastota, New York, US",Unlikely
+489,490,1.0,3,male,1,1,C.A. 37671,15.9,S,3.0,"London, England",Southampton,"Brooklyn, New York, US",Confirmed
+490,491,0.0,3,male,1,0,65304,19.9667,S,19.0,"Skaare, Haugesund, Norway",Southampton,"Belmar, New Jersey, US",Unlikely
+491,492,0.0,3,male,0,0,SOTON/OQ 3101317,7.25,S,21.0,"Cape Town, South Africa",Southampton,New York City,Unlikely
+492,493,0.0,1,male,0,0,113787,30.5,S,55.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Unlikely
+493,494,0.0,1,male,0,0,PC 17609,49.5042,C,71.0,"Buenos Aires, Argentina",Cherbourg,"New York, New York, US",Unlikely
+494,495,0.0,3,male,0,0,A/4 45380,8.05,S,21.0,"Swanage, England",Southampton,"Cleveland, Ohio, US",Unlikely
+495,496,0.0,3,male,0,0,2627,14.4583,C,26.0,"Hardîne, Lebanon",Cherbourg,"Youngstown, Ohio, US",Unlikely
+496,497,1.0,1,female,1,0,36947,78.2667,C,54.0,"Brookline, Massachusetts, US",Cherbourg,"Brookline, Massachusetts, US",Confirmed
+497,498,0.0,3,male,0,0,C.A. 6212,15.1,S,55.0,"Bristol, Avon, England",Southampton,"Troy, New York, US",Unlikely
+498,499,0.0,1,female,1,2,113781,151.55,S,25.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Unlikely
+499,500,0.0,3,male,0,0,350035,7.7958,S,24.0,"Björkeberga, Skåne, Sweden",Southampton,New York City,Unlikely
+500,501,0.0,3,male,0,0,315086,8.6625,S,17.0,"Brezik, Croatia",Southampton,"Sault Ste. Marie, Michigan, US",Unlikely
+501,502,0.0,3,female,0,0,364846,7.75,Q,22.0,"Tonacrick, Clare, Ireland",Queenstown,"Philadelphia, Pennsylvania, US",Unlikely
+502,503,0.0,3,female,0,0,330909,7.6292,Q,21.0,"Glenduff, Kerry, Ireland",Queenstown,New York City,Unlikely
+503,504,0.0,3,female,0,0,4135,9.5875,S,37.0,"Helsinki, Finland",Southampton,New York City,Unlikely
+504,505,1.0,1,female,0,0,110152,86.5,S,20.0,"Vancouver, British Columbia, Canada",Southampton,"Vancouver, British Columbia, Canada",Confirmed
+505,506,0.0,1,male,1,0,PC 17758,108.9,C,24.0,"Madrid, Spain",Cherbourg,"New York, New York, US",Unlikely
+506,507,1.0,2,female,0,2,26360,26.0,S,33.0,"Plymouth, Devon, England",Southampton,"Detroit, Michigan, US",Confirmed
+507,508,1.0,1,male,0,0,111427,26.55,S,37.0,"Los Angeles, California, US",Southampton,"Los Angeles, California, US",Confirmed
+508,509,0.0,3,male,0,0,C 4001,22.525,S,28.0,"Bergen, Norway",Southampton,New York City,Unlikely
+509,510,1.0,3,male,0,0,1601,56.4958,S,26.0,"Hong Kong, China",Southampton,New York City,Confirmed
+510,511,1.0,3,male,0,0,382651,7.75,Q,29.0,"Athlone, Westmeath, Ireland",Queenstown,New York City,Confirmed
+511,512,0.0,3,male,0,0,SOTON/OQ 3101316,8.05,S,66.0,"San Francisco, US",Southampton,"San Francisco, US",Unlikely
+512,513,1.0,1,male,0,0,PC 17473,26.2875,S,35.0,"Philadelphia, Pennsylvania, US",Southampton,"Philadelphia, Pennsylvania, US",Confirmed
+513,514,1.0,1,female,1,0,PC 17603,59.4,C,54.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+514,515,0.0,3,male,0,0,349209,7.4958,S,24.0,"Debnevo, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+515,516,0.0,1,male,0,0,36967,34.0208,S,48.0,"East Orange, New Jersey, US",Southampton,"East Orange, New Jersey, US",Unlikely
+516,517,1.0,2,female,0,0,C.A. 34260,10.5,S,34.0,"Chicago, Illinois, US",Southampton,"Chicago, Illinois, US",Confirmed
+517,518,0.0,3,male,0,0,371110,24.15,Q,29.0,"Askeaton, Limerick, Ireland",Queenstown,"Bronx, New York, US",Unlikely
+518,519,1.0,2,female,1,0,226875,26.0,S,36.0,"Warwick, Warwickshire, England",Southampton,New York City,Confirmed
+519,520,0.0,3,male,0,0,349242,7.8958,S,32.0,"Vagovina, Croatia",Southampton,"Harrisburg, Pennsylvania, US",Unlikely
+520,521,1.0,1,female,0,0,12749,93.5,S,33.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Confirmed
+521,522,0.0,3,male,0,0,349252,7.8958,S,21.0,"Jesenice, Slovenia",Southampton,"St. Joseph, Minnesota, US",Unlikely
+522,523,0.0,3,male,0,0,2624,7.225,C,30.0,"Zgharta, Lebanon",Cherbourg,"Waterbury, Connecticut, US",Unlikely
+523,524,1.0,1,female,0,1,111361,57.9792,C,44.0,"Chicago, Illinois, US",Cherbourg,"Chicago, Illinois, US",Confirmed
+524,525,0.0,3,male,0,0,2700,7.2292,C,18.0,"Shana, Lebanon",Cherbourg,New York City,Unlikely
+525,526,0.0,3,male,0,0,367232,7.75,Q,25.0,"Killoe, Longford, Ireland",Queenstown,New York City,Unlikely
+526,527,1.0,2,female,0,0,W./C. 14258,10.5,S,50.0,"London, England",Southampton,"Marietta, Ohio, US",Confirmed
+527,528,0.0,1,male,0,0,PC 17483,221.7792,S,57.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+528,529,0.0,3,male,0,0,3101296,7.925,S,39.0,"Aberdeen, Washington, US",Southampton,"Aberdeen, Washington, US",Unlikely
+529,530,0.0,2,male,2,1,29104,11.5,S,23.0,"Akron, Ohio, US",Southampton,"Akron, Ohio, US",Unlikely
+530,531,1.0,2,female,1,1,26360,26.0,S,2.0,"Plymouth, Devon, England",Southampton,"Detroit, Michigan, US",Confirmed
+531,532,0.0,3,male,0,0,2641,7.2292,C,17.0,"Hardîne, Lebanon",Cherbourg,New York City,Unlikely
+532,533,0.0,3,male,1,1,2690,7.2292,C,15.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+533,534,1.0,3,female,0,2,2668,22.3583,C,24.0,"Sar'al, Syria",Cherbourg,"Detroit, Michigan, US",Confirmed
+534,535,0.0,3,female,0,0,315084,8.6625,S,30.0,"Široka Kula, Croatia",Southampton,"Chicago, Illinois, US",Unlikely
+535,536,1.0,2,female,0,2,F.C.C. 13529,26.25,S,7.0,"Ilford, Essex, England",Southampton,"Winnipeg, Manitoba, Canada",Confirmed
+536,537,0.0,1,male,0,0,113050,26.55,S,46.0,"Washington, DC, US",Southampton,"Washington, DC, US",Unlikely
+537,538,1.0,1,female,0,0,PC 17761,106.425,C,27.0,"Minneapolis, Minnesota, US",Cherbourg,"Minneapolis, Minnesota, US",Confirmed
+538,539,0.0,3,male,0,0,364498,14.5,S,69.0,"Deal, Kent, England",Southampton,"Groesbeck, Texas, US",Unlikely
+539,540,1.0,1,female,0,2,13568,49.5,C,22.0,"Zürich, Switzerland",Cherbourg,"New York, New York, US",Confirmed
+540,541,1.0,1,female,0,2,WE/P 5735,71.0,S,39.0,"Milwaukee, Wisconsin, US",Southampton,"Milwaukee, Wisconsin, US",Confirmed
+541,542,0.0,3,female,4,2,347082,31.275,S,9.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+542,543,0.0,3,female,4,2,347082,31.275,S,11.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+543,544,1.0,2,male,1,0,2908,26.0,S,32.0,New York City,Southampton,New York City,Confirmed
+544,545,0.0,1,male,1,0,PC 17761,106.425,C,50.0,"Minneapolis, Minnesota, US",Cherbourg,"Minneapolis, Minnesota, US",Unlikely
+545,546,0.0,1,male,0,0,693,26.0,S,64.0,"Shanklin, Isle of Wight, England, UK",Southampton,"New York, New York, US",Unlikely
+546,547,1.0,2,female,1,0,2908,26.0,S,19.0,"Norwich, Norfolk, England",Southampton,New York City,Confirmed
+547,548,1.0,2,male,0,0,SC/PARIS 2146,13.8625,C,26.0,"Barcelona, Catalonia, Spain",Cherbourg,"Havana, Cuba",Confirmed
+548,549,0.0,3,male,1,1,363291,20.525,S,33.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US",Unlikely
+549,550,1.0,2,male,1,1,C.A. 33112,36.75,S,8.0,"St. Ives, Cornwall, England, UK",Southampton,"Houghton, Michigan, US",Confirmed
+550,551,1.0,1,male,0,2,17421,110.8833,C,17.0,"Haverford, Pennsylvania, US",Cherbourg,"Haverford, Pennsylvania, US",Confirmed
+551,552,0.0,2,male,0,0,244358,26.0,S,27.0,"London, England, UK",Southampton,New York City,Unlikely
+552,553,0.0,3,male,0,0,330979,7.8292,Q,21.0,"Drimoleague, Cork, Ireland",Queenstown,New York City,Unlikely
+553,554,1.0,3,male,0,0,2620,7.225,C,22.0,"Toula, Lebanon",Cherbourg,"Dayton, Ohio, US",Confirmed
+554,555,1.0,3,female,0,0,347085,7.775,S,22.0,"Mariestad, Västergötland, Sweden",Southampton,"Chicago, Illinois, US",Confirmed
+555,556,0.0,1,male,0,0,113807,26.55,S,62.0,"Halifax, Nova Scotia, Canada",Southampton,"Halifax, Nova Scotia, Canada",Unlikely
+556,557,1.0,1,female,1,0,11755,39.6,C,48.0,"London, England, UK",Cherbourg,"New York, New York, US",Confirmed
+558,559,1.0,1,female,1,1,110413,79.65,S,39.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+559,560,1.0,3,female,1,0,345572,17.4,S,36.0,"Tampico, Montana, US",Southampton,"Tampico, Montana, US",Confirmed
+560,561,0.0,3,male,0,0,372622,7.75,Q,30.0,"Rathfriland, Down, Ireland",Queenstown,"Gleichen, Alberta, Canada",Unlikely
+561,562,0.0,3,male,0,0,349251,7.8958,S,40.0,"Bosanska Krupa, Bosnia",Southampton,"Harrisburg, Pennsylvania, US",Unlikely
+562,563,0.0,2,male,0,0,218629,13.5,S,28.0,"Glasgow, Scotland",Southampton,"Houghton, Michigan, US",Unlikely
+563,564,0.0,3,male,0,0,SOTON/OQ 392082,8.05,S,39.0,"Leigh, Kent, England",Southampton,New York City,Unlikely
+564,565,0.0,3,female,0,0,SOTON/O.Q. 392087,8.05,S,63.0,"Eastbourne, East Sussex, England",Southampton,New York City,Unlikely
+565,566,0.0,3,male,2,0,A/4 48871,24.15,S,24.0,"West Bromwich, Staffordshire, England",Southampton,"Pontiac, Michigan, US",Unlikely
+566,567,0.0,3,male,0,0,349205,7.8958,S,19.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+567,568,0.0,3,female,0,4,349909,21.075,S,29.0,"Bjuv, Skåne, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+568,569,0.0,3,male,0,0,2686,7.2292,C,28.0,"Beirut, Lebanon",Cherbourg,"Youngstown, Ohio, US",Unlikely
+569,570,1.0,3,male,0,0,350417,7.8542,S,32.0,"Kalfsnäs, Småland, Sweden",Southampton,"Huntley, Illinois, US",Confirmed
+570,571,1.0,2,male,0,0,S.W./PP 752,10.5,S,62.0,"London, England",Southampton,New York City,Confirmed
+571,572,1.0,1,female,2,0,11769,51.4792,S,53.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+572,573,1.0,1,male,0,0,PC 17474,26.3875,S,36.0,"Brooklyn, New York, US",Southampton,"Brooklyn, New York, US",Confirmed
+573,574,1.0,3,female,0,0,14312,7.75,Q,22.0,"Castlepollard, Westmeath, Ireland",Queenstown,New York City,Confirmed
+574,575,0.0,3,male,0,0,A/4. 20589,8.05,S,16.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US",Unlikely
+575,576,0.0,3,male,0,0,358585,14.5,S,19.0,"Wollaston, Northamptonshire, England",Southampton,"Kitchener, Ontario, Canada",Unlikely
+576,577,1.0,2,female,0,0,243880,13.0,S,34.0,"Liverpool, Merseyside, England",Southampton,"Brooklyn, New York, US",Confirmed
+577,578,1.0,1,female,1,0,13507,55.9,S,39.0,"Duluth, Minnesota, US",Cherbourg,"Duluth, Minnesota, US",Confirmed
+578,579,0.0,3,female,1,0,2689,14.4583,C,18.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+579,580,1.0,3,male,0,0,STON/O 2. 3101286,7.925,S,32.0,"Elimäki, Finland",Southampton,"Monessen, Pennsylvania, US",Confirmed
+580,581,1.0,2,female,1,1,237789,30.0,S,25.0,"London, England, UK",Southampton,"Montreal, Quebec, Canada",Confirmed
+581,582,1.0,1,female,1,1,17421,110.8833,C,39.0,"Haverford, Pennsylvania, US",Cherbourg,"Haverford, Pennsylvania, US",Confirmed
+582,583,0.0,2,male,0,0,28403,26.0,S,55.0,"Rochester, New York, US",Southampton,"Rochester, New York, US",Unlikely
+583,584,0.0,1,male,0,0,13049,40.125,C,36.0,"Winnipeg, Manitoba, Canada",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+584,585,0.0,3,male,0,0,3411,8.7125,C,16.0,"Unknown, Unknown",Cherbourg,New York City,Unlikely
+585,586,1.0,1,female,0,2,110413,79.65,S,18.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+586,587,0.0,2,male,0,0,237565,15.0,S,47.0,"Stoneygate, Leicestershire, England",Southampton,New York City,Unlikely
+587,588,1.0,1,male,1,1,13567,79.2,C,60.0,"Zürich, Switzerland",Cherbourg,"New York, New York, US",Confirmed
+588,589,0.0,3,male,0,0,14973,8.05,S,22.0,"Abercynon, Glamorgan, Wales",Southampton,"Chicago, Illinois, US",Unlikely
+589,590,0.0,3,male,0,0,A./5. 3235,8.05,S,22.0,"London, England",Southampton,New York City,Unlikely
+590,591,0.0,3,male,0,0,STON/O 2. 3101273,7.125,S,35.0,"Kyyny, Finland",Southampton,"Sudbury, Ontario, Canada",Unlikely
+591,592,1.0,1,female,1,0,36947,78.2667,C,52.0,"Paris, France",Cherbourg,"Haverford, Pennsylvania, US",Confirmed
+592,593,0.0,3,male,0,0,A/5 3902,7.25,S,47.0,"Taunton, Somerset, England",Southampton,"Gurnee, Illinois, US",Unlikely
+593,594,0.0,3,female,0,2,364848,7.75,Q,40.0,"Carrowskehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Unlikely
+594,595,0.0,2,male,1,0,SC/AH 29037,26.0,S,36.0,"Liskeard, Cornwall, England",Southampton,"Spokane, Washington, US",Unlikely
+595,596,0.0,3,male,1,1,345773,24.15,S,36.0,"Kerksken, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+596,597,1.0,2,female,0,0,248727,33.0,S,31.0,"London, England",Southampton,"Chicago, Illinois, US",Confirmed
+597,598,0.0,3,male,0,0,LINE,0.0,S,49.0,"Millwood, England",Southampton,New York City,Unlikely
+598,599,0.0,3,male,0,0,2664,7.225,C,18.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+599,600,1.0,1,male,1,0,PC 17485,56.9292,C,49.0,"London, England, UK",Cherbourg,"New York, New York, US",Confirmed
+600,601,1.0,2,female,2,1,243847,27.0,S,24.0,"London, England",Southampton,"Montreal, Quebec, Canada",Confirmed
+601,602,0.0,3,male,0,0,349214,7.8958,S,42.0,"Unknown, Bulgaria",Southampton,New York City,Unlikely
+602,603,0.0,1,male,0,0,113796,42.4,S,37.0,"Washington, DC, US",Southampton,"Washington, DC, US",Unlikely
+603,604,0.0,3,male,0,0,364511,8.05,S,44.0,"Unknown, Germany",Southampton,New York City,Unlikely
+604,605,1.0,1,male,0,0,111426,26.55,C,40.0,"Indianapolis, Indiana, US",Southampton,"Indianapolis, Indiana, US",Confirmed
+605,606,0.0,3,male,1,0,349910,15.55,S,36.0,"Helsingborg, Skåne, Sweden",Southampton,"Hartford, Connecticut, US",Confirmed
+606,607,0.0,3,male,0,0,349246,7.8958,S,30.0,"Vagovina, Croatia",Southampton,"Youngstown, Ohio, US",Unlikely
+607,608,1.0,1,male,0,0,113804,30.5,S,27.0,"Philadelphia, Pennsylvania, US",Southampton,"Philadelphia, Pennsylvania, US",Confirmed
+608,609,1.0,2,female,1,2,SC/Paris 2123,41.5792,C,22.0,"Paris, France",Cherbourg,"Cap-Haïtien, Haiti",Confirmed
+609,610,1.0,1,female,0,0,PC 17582,153.4625,S,40.0,"Greenwich, Connecticut, US",Southampton,"Greenwich, Connecticut, US",Confirmed
+610,611,0.0,3,female,1,5,347082,31.275,S,39.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+611,612,0.0,3,male,0,0,SOTON/O.Q. 3101305,7.05,S,21.0,"Calheta, Madeira, Portugal",Southampton,New York City,Unlikely
+612,613,1.0,3,female,1,0,367230,15.5,Q,25.0,"Fostragh, Longford, Ireland",Queenstown,"Philadelphia, Pennsylvania, US",Confirmed
+613,614,0.0,3,male,0,0,370377,7.75,Q,22.0,"Unknown, Ireland",Queenstown,New York City,Unlikely
+614,615,0.0,3,male,0,0,364512,8.05,S,35.0,"Broomfield, Essex, England",Southampton,New York City,Unlikely
+615,616,1.0,2,female,1,2,220845,65.0,S,24.0,"Yeovil, Somerset, England",Southampton,"Bernardsville, New Jersey, US",Confirmed
+616,617,0.0,3,male,1,1,347080,14.4,S,34.0,"Göteborg, Västergötland, Sweden",Southampton,"Stanton, Iowa, US",Unlikely
+617,618,0.0,3,female,1,0,A/5. 3336,16.1,S,26.0,"Scranton, Pennsylvania, US",Southampton,"Scranton, Pennsylvania, US",Unlikely
+618,619,1.0,2,female,2,1,230136,39.0,S,4.0,"Guntur, Madras Province, British India",Southampton,"Benton Harbor, Michigan, US",Confirmed
+619,620,0.0,2,male,0,0,31028,10.5,S,26.0,"Guernsey, Channel Islands",Southampton,"Elizabeth, New Jersey, US",Unlikely
+620,621,0.0,3,male,1,0,2659,14.4542,C,27.0,"Unknown, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US",Unlikely
+621,622,1.0,1,male,1,0,11753,52.5542,S,42.0,"Boston, Massachusetts, US",Southampton,"Boston, Massachusetts, US",Confirmed
+622,623,1.0,3,male,1,1,2653,15.7417,C,20.0,"Zgharta, Lebanon",Cherbourg,"Waterbury, Connecticut, US",Confirmed
+623,624,0.0,3,male,0,0,350029,7.8542,S,21.0,"Copenhagen, Denmark",Southampton,"Racine, Wisconsin, US",Unlikely
+624,625,0.0,3,male,0,0,54636,16.1,S,20.0,"Treherbert, Glamorgan, Wales",Southampton,New York City,Unlikely
+625,626,0.0,1,male,0,0,36963,32.3208,S,61.0,"Haddonfield, New Jersey, US",Southampton,"Haddonfield, New Jersey, US",Unlikely
+626,627,0.0,2,male,0,0,219533,12.35,Q,52.0,"Glasgow, Scotland",Queenstown,"Tuxford, Saskatchewan, Canada",Unlikely
+627,628,1.0,1,female,0,0,13502,77.9583,S,21.0,"Hudson, New York, US",Cherbourg,"Hudson, New York, US",Confirmed
+628,629,0.0,3,male,0,0,349224,7.8958,S,26.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+629,630,0.0,3,male,0,0,334912,7.7333,Q,17.0,"Kingwilliamstown, Cork, Ireland",Queenstown,New York City,Unlikely
+630,631,1.0,1,male,0,0,27042,30.0,S,47.0,"Hessle, East Yorkshire, England, UK",Southampton,"New York, New York, US",Confirmed
+631,632,0.0,3,male,0,0,347743,7.0542,S,51.0,"Fyrnan, Småland, Sweden",Southampton,"Spokane, Washington, US",Unlikely
+632,633,1.0,1,male,0,0,13214,30.5,C,32.0,"Basel, Switzerland",Southampton,"New York, New York, US",Confirmed
+633,634,0.0,1,male,0,0,112052,0.0,S,29.0,"Belfast, Ireland, UK",Belfast,"New York, New York, US",Unlikely
+634,635,0.0,3,female,3,2,347088,27.9,S,9.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+635,636,1.0,2,female,0,0,237668,13.0,S,28.0,"London, England, UK",Southampton,"Tottenville, New York, US",Confirmed
+636,637,0.0,3,male,0,0,STON/O 2. 3101292,7.925,S,32.0,"Valitaipale, Finland",Southampton,New York City,Unlikely
+637,638,0.0,2,male,1,1,C.A. 31921,26.25,S,31.0,"Bishopstoke, Hampshire, England",Southampton,"Payette, Idaho, US",Unlikely
+638,639,0.0,3,female,0,5,3101295,39.6875,S,41.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US",Unlikely
+639,640,0.0,3,male,1,0,376564,16.1,S,36.0,"Maidstone, Kent, England",Southampton,"Clinton, New York, US",Unlikely
+640,641,0.0,3,male,0,0,350050,7.8542,S,20.0,"Eskilstrup, Denmark",Southampton,"Portland, Oregon, US",Unlikely
+641,642,1.0,1,female,0,0,PC 17477,69.3,C,24.0,"Paris, France",Cherbourg,"New York, New York, US",Confirmed
+642,643,0.0,3,female,3,2,347088,27.9,S,2.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+643,644,1.0,3,male,0,0,1601,56.4958,S,32.0,"Hong Kong, China",Southampton,New York City,Confirmed
+644,645,1.0,3,female,2,1,2666,19.2583,C,4.0,"Ḑuhūr ash Shuwayr, Lebanon",Cherbourg,"Brooklyn, New York, US",Confirmed
+645,646,1.0,1,male,1,0,PC 17572,76.7292,C,48.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+646,647,0.0,3,male,0,0,349231,7.8958,S,19.0,"Kricina, Croatia",Southampton,"Great Falls, Montana, US",Unlikely
+647,648,1.0,1,male,0,0,13213,35.5,C,56.0,"Basel, Switzerland",Southampton,"New York, New York, US",Confirmed
+648,649,0.0,3,male,0,0,S.O./P.P. 751,7.55,S,18.0,"Market Drayton, Shropshire, England",Southampton,"Schenectady, New York, US",Unlikely
+649,650,1.0,3,female,0,0,CA. 2314,7.55,S,24.0,"Wallingford, Oxfordshire, England",Southampton,"New Haven, Connecticut, US",Confirmed
+650,651,0.0,3,male,0,0,349221,7.8958,S,23.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+651,652,1.0,2,female,0,1,231919,23.0,S,19.0,"Southampton, Hampshire, England, UK",Southampton,New York City,Unconfirmed
+652,653,0.0,3,male,0,0,8475,8.4333,S,21.0,"Etnesjøen, Hordaland Fylke, Norway",Southampton,"Story City, Iowa, US",Unlikely
+653,654,1.0,3,female,0,0,330919,7.8292,Q,16.0,"Kingwilliamstown, Cork, Ireland",Queenstown,New York City,Confirmed
+654,655,0.0,3,female,0,0,365226,6.75,Q,18.0,"Whitechurch, Cork, Ireland",Queenstown,"Charlestown, US",Unlikely
+655,656,0.0,2,male,2,0,S.O.C. 14879,73.5,S,24.0,"Fritham, Hampshire, England",Southampton,"Eden, Manitoba, Canada",Unlikely
+656,657,0.0,3,male,0,0,349223,7.8958,S,27.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+657,658,0.0,3,female,1,1,364849,15.5,Q,32.0,"Carrowskehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Unlikely
+658,659,0.0,2,male,0,0,29751,13.0,S,23.0,"London, England, UK",Southampton,"Detroit, Michigan, US",Unlikely
+659,660,0.0,1,male,0,2,35273,113.275,C,58.0,"Lexington, Massachusetts, US",Cherbourg,"Lexington, Massachusetts, US",Unlikely
+660,661,1.0,1,male,2,0,PC 17611,133.65,S,49.0,"London, England, UK",Southampton,"New York, New York, US",Confirmed
+661,662,0.0,3,male,0,0,2623,7.225,C,40.0,"Tripoli, Lebanon",Cherbourg,New York City,Unlikely
+662,663,0.0,1,male,0,0,5727,25.5875,S,37.0,"Dublin, Ireland, UK[note 1]",Southampton,"Vancouver, British Columbia, Canada",Unlikely
+663,664,0.0,3,male,0,0,349210,7.4958,S,36.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+664,665,1.0,3,male,1,0,STON/O 2. 3101285,7.925,S,20.0,"Taalintehdas, Finland",Southampton,"Monessen, Pennsylvania, US",Confirmed
+665,666,0.0,2,male,2,0,S.O.C. 14879,73.5,S,30.0,"Fritham, Hampshire, England",Southampton,"The Pas, Manitoba, Canada",Unlikely
+666,667,0.0,2,male,0,0,234686,13.0,S,25.0,"Southsea, Hampshire, England",Southampton,New York City,Unlikely
+667,668,0.0,3,male,0,0,312993,7.775,S,49.0,"Hogstad, Norway",Southampton,New York City,Unlikely
+668,669,0.0,3,male,0,0,A/5 3536,8.05,S,43.0,"Unknown (Estonia?), Russia (Estonia?)",Southampton,New York City,Unlikely
+669,670,1.0,1,female,1,0,19996,52.0,S,48.0,"London, England, UK",Southampton,"East Orange, New Jersey, US",Confirmed
+670,671,1.0,2,female,1,1,29750,39.0,S,40.0,"Cape Town, South Africa, UK",Southampton,"Seattle, Washington, US",Confirmed
+671,672,0.0,1,male,1,0,F.C. 12750,52.0,S,31.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Unlikely
+672,673,0.0,2,male,0,0,C.A. 24580,10.5,S,71.0,"Guernsey, Channel Islands",Southampton,"Toledo, Ohio, US",Unlikely
+673,674,1.0,2,male,0,0,244270,13.0,S,32.0,"London, England",Southampton,New York City,Confirmed
+674,675,0.0,2,male,0,0,239856,0.0,S,15.0,"Belfast, Northern Ireland, UK",Belfast,New York City,Unlikely
+675,676,0.0,3,male,0,0,349912,7.775,S,18.0,"Tofta, Uppland, Sweden",Southampton,"Joliet, Illinois, US",Unlikely
+676,677,0.0,3,male,0,0,342826,8.05,S,33.0,"Basingstoke, Hampshire, England",Southampton,"Halley, Michigan, US",Unlikely
+677,678,1.0,3,female,0,0,4138,9.8417,S,18.0,"Oulainen, Oulu, Finland",Southampton,"Ashtabula, Ohio, US",Confirmed
+678,679,0.0,3,female,1,6,CA 2144,46.9,S,43.0,"Fulham, England",Southampton,"Niagara Falls, New York, US",Unlikely
+679,680,1.0,1,male,0,1,PC 17755,512.3292,C,36.0,"Germantown, Pennsylvania, US",Cherbourg,"Germantown, Pennsylvania, US",Confirmed
+680,681,0.0,3,female,0,0,330935,8.1375,Q,26.0,"Cahir, Tipperary, Ireland",Queenstown,New York City,Unlikely
+681,682,1.0,1,male,0,0,PC 17572,76.7292,C,27.0,"Cairo, Egypt",Cherbourg,"New York, New York, US",Confirmed
+682,683,0.0,3,male,0,0,6563,9.225,S,20.0,"Vikersund, Norway",Southampton,"Carneron, US",Unlikely
+683,684,0.0,3,male,5,2,CA 2144,46.9,S,14.0,"Fulham, England",Southampton,"Niagara Falls, New York, US",Unlikely
+684,685,0.0,2,male,1,1,29750,39.0,S,60.0,"Cape Town, South Africa, UK[note 4]",Southampton,"Seattle, Washington, US",Unlikely
+685,686,0.0,2,male,1,2,SC/Paris 2123,41.5792,C,25.0,"Paris, France",Cherbourg,"Cap-Haïtien, Haiti",Unlikely
+686,687,0.0,3,male,4,1,3101295,39.6875,S,15.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US",Unlikely
+687,688,0.0,3,male,0,0,349228,10.1708,S,19.0,"Gornji Miholjac, Croatia",Southampton,New York City,Unlikely
+688,689,0.0,3,male,0,0,350036,7.7958,S,18.0,"Björkeberga, Skåne, Sweden",Southampton,New York City,Unlikely
+689,690,1.0,1,female,0,1,24160,211.3375,S,16.0,"St Louis, Missouri, US",Southampton,"St Louis, Missouri, US",Confirmed
+690,691,1.0,1,male,1,0,17474,57.0,S,31.0,"Calgary, Alberta, Canada",Southampton,"Calgary, Alberta, Canada",Confirmed
+691,692,1.0,3,female,0,1,349256,13.4167,C,4.0,"Milje, Slovenia",Southampton,"Galesburg, Illinois, US",Confirmed
+692,693,1.0,3,male,0,0,1601,56.4958,S,37.0,"Hong Kong, China",Southampton,New York City,Confirmed
+693,694,0.0,3,male,0,0,2672,7.225,C,25.0,"Kfar Mechi, Syria",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+694,695,0.0,1,male,0,0,113800,26.55,S,59.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+695,696,0.0,2,male,0,0,248731,13.5,S,52.0,"Bronx, New York, US",Southampton,"Bronx, New York, US",Unlikely
+696,697,0.0,3,male,0,0,363592,8.05,S,44.0,"Leixlip, Kildare, Ireland",Queenstown,"New Haven, Connecticut, US",Unlikely
+697,698,1.0,3,female,0,0,35852,7.7333,Q,19.0,"Esker, Longford, Ireland",Queenstown,New York City,Confirmed
+698,699,0.0,1,male,1,1,17421,110.8833,C,49.0,"Haverford, Pennsylvania, US",Cherbourg,"Haverford, Pennsylvania, US",Unlikely
+699,700,0.0,3,male,0,0,348121,7.65,S,42.0,"Borgund, Møre og Romsdal, Norway",Southampton,"Milwaukee, Wisconsin, US",Unlikely
+700,701,1.0,1,female,1,0,PC 17757,227.525,C,18.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+701,702,1.0,1,male,0,0,PC 17475,26.2875,S,35.0,"St Louis, Missouri, US",Southampton,"St Louis, Missouri, US",Confirmed
+702,703,0.0,3,female,0,1,2691,14.4542,C,12.0,"Kafr Mishki, Lebanon",Cherbourg,"Ottawa, Ontario, Canada",Unlikely
+703,704,0.0,3,male,0,0,36864,7.7417,Q,29.0,"Caltra, Galway, Ireland",Queenstown,New York City,Unlikely
+704,705,0.0,3,male,1,0,350025,7.8542,S,26.0,"Holeby, Storstrøm, Denmark",Southampton,"Racine, Wisconsin, US",Unlikely
+705,706,0.0,2,male,0,0,250655,26.0,S,38.0,"Birmingham, Worcester, England",Southampton,"Los Angeles, US",Unlikely
+706,707,1.0,2,female,0,0,223596,13.5,S,45.0,"London, England",Southampton,New York City,Confirmed
+707,708,1.0,1,male,0,0,PC 17476,26.2875,S,42.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+708,709,1.0,1,female,0,0,113781,151.55,S,22.0,"London, England, UK",Southampton,"Montreal, Quebec, Canada",Confirmed
+709,710,1.0,3,male,1,1,2661,15.2458,C,4.0,"Hardîne, Lebanon",Cherbourg,"Houtzdale, Pennsylvania, US",Confirmed
+710,711,1.0,1,female,0,0,PC 17482,49.5042,C,24.0,"Brussels, Belgium",Cherbourg,"Montreal, Quebec, Canada",Confirmed
+711,712,0.0,1,male,0,0,113028,26.55,S,45.0,"Portland, Oregon, US",Southampton,"Portland, Oregon, US",Unlikely
+712,713,1.0,1,male,1,0,19996,52.0,S,48.0,"London, England, UK",Southampton,"East Orange, New Jersey, US",Confirmed
+713,714,0.0,3,male,0,0,7545,9.4833,S,29.0,"Stamford, Connecticut, US",Southampton,"Stamford, Connecticut, US",Unlikely
+714,715,0.0,2,male,0,0,250647,13.0,S,52.0,"Bronx, New York, US",Southampton,"Bronx, New York, US",Unlikely
+715,716,0.0,3,male,0,0,348124,7.65,S,19.0,"Ålesund, Møre og Romsdal, Norway",Southampton,"Minneapolis, Minnesota, US",Unlikely
+716,717,1.0,1,female,0,0,PC 17757,227.525,C,39.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+717,718,1.0,2,female,0,0,34218,10.5,S,27.0,"Bath, Somerset, England",Southampton,"Auburndale, Florida, US",Confirmed
+718,719,0.0,3,male,0,0,36568,15.5,Q,19.0,"Dublin, Ireland",Queenstown,New York City,Unlikely
+719,720,0.0,3,male,0,0,347062,7.775,S,33.0,"Minneapolis, Minnesota, US",Southampton,"Minneapolis, Minnesota, US",Unlikely
+720,721,1.0,2,female,0,1,248727,33.0,S,6.0,"London, England",Southampton,"Chicago, Illinois, US",Confirmed
+721,722,0.0,3,male,1,0,350048,7.0542,S,17.0,"Eskilstrup, Denmark",Southampton,"Portland, Oregon, US",Unlikely
+722,723,0.0,2,male,0,0,12233,13.0,S,34.0,"Abbeyleix, Laois, Ireland[note 1]",Southampton,"Vancouver, British Columbia, Canada",Unlikely
+723,724,0.0,2,male,0,0,250643,13.0,S,50.0,"Southampton, Hampshire, England",Southampton,"Boston, Massachusetts, US",Unlikely
+724,725,1.0,1,male,1,0,113806,53.1,S,27.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+725,726,0.0,3,male,0,0,315094,8.6625,S,20.0,"Konjsko Brdo, Croatia",Southampton,"Chicago, Illinois, US",Unlikely
+726,727,1.0,2,female,3,0,31027,21.0,S,30.0,"Elizabeth, New Jersey, US",Southampton,"Elizabeth, New Jersey, US",Confirmed
+727,728,1.0,3,female,0,0,36866,7.7375,Q,28.0,"Caltra, Galway, Ireland",Queenstown,New York City,Confirmed
+728,729,0.0,2,male,1,0,236853,26.0,S,25.0,"Skara, Västergötland, Sweden",Southampton,"Rockford, Illinois, US",Unlikely
+729,730,0.0,3,female,1,0,STON/O2. 3101271,7.925,S,25.0,"Paavola, Northern Ostrobothnia, Finland",Southampton,New York City,Unlikely
+730,731,1.0,1,female,0,0,24160,211.3375,S,29.0,"St Louis, Missouri, US",Southampton,"St Louis, Missouri, US",Confirmed
+731,732,0.0,3,male,0,0,2699,18.7875,C,11.0,"Fredericksburg, Virginia, US",Cherbourg,"Fredericksburg, Virginia, US",Unlikely
+732,733,0.0,2,male,0,0,239855,0.0,S,39.0,"Belfast, Ireland",Belfast,New York City,Unlikely
+733,734,0.0,2,male,0,0,28425,13.0,S,23.0,"St. Ives, Cornwall, England",Southampton,"Calumet, Michigan, US",Unlikely
+734,735,0.0,2,male,0,0,233639,13.0,S,23.0,"London, England",Southampton,New York City,Unlikely
+735,736,0.0,3,male,0,0,54636,16.1,S,28.0,"Tonypandy, Glamorgan, Wales",Southampton,New York City,Unlikely
+736,737,0.0,3,female,1,3,W./C. 6608,34.375,S,48.0,"Rotherfield, East Sussex, England",Southampton,"Essex County, New Jersey, US",Unlikely
+737,738,1.0,1,male,0,0,PC 17755,512.3292,C,35.0,"Germantown, Pennsylvania, US",Cherbourg,"Germantown, Pennsylvania, US",Confirmed
+738,739,0.0,3,male,0,0,349201,7.8958,S,20.0,"Malka Ribnya, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+739,740,0.0,3,male,0,0,349218,7.8958,S,32.0,"Unknown, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+740,741,1.0,1,male,0,0,16988,30.0,S,45.0,"Kingston, Surrey, England, UK",Southampton,"New York, New York, US",Confirmed
+741,742,0.0,1,male,1,0,19877,78.85,S,36.0,"London, England, UK",Southampton,"New York, New York, US",Unlikely
+742,743,1.0,1,female,2,2,PC 17608,262.375,C,21.0,"Cooperstown, New York, US",Cherbourg,"Cooperstown, New York, US",Confirmed
+743,744,0.0,3,male,1,0,376566,16.1,S,27.0,"Convoy, Donegal, Ireland, England",Southampton,"Philadelphia, Pennsylvania, US",Unlikely
+744,745,1.0,3,male,0,0,STON/O 2. 3101288,7.925,S,31.0,"Muljula, Kitee, Finland",Southampton,"Duluth, Minnesota, US",Confirmed
+745,746,0.0,1,male,1,1,WE/P 5735,71.0,S,70.0,"Milwaukee, Wisconsin, US",Southampton,"Milwaukee, Wisconsin, US",Unlikely
+746,747,0.0,3,male,1,1,C.A. 2673,20.25,S,16.0,"East Providence, Rhode Island, US",Southampton,"East Providence, Rhode Island, US",Unlikely
+747,748,1.0,2,female,0,0,250648,13.0,S,30.0,"Turku, Finland, Russian Empire[note 6]",Southampton,"Brighton, Boston, Massachusetts, US",Confirmed
+748,749,0.0,1,male,1,0,113773,53.1,S,18.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+749,750,0.0,3,male,0,0,335097,7.75,Q,31.0,"Brooklyn, New York, US",Queenstown,"Brooklyn, New York, US",Unlikely
+750,751,1.0,2,female,1,1,29103,23.0,S,4.0,"Heamoor, Cornwall, England",Southampton,"Akron, Ohio, US",Confirmed
+751,752,1.0,3,male,0,1,392096,12.475,S,7.0,"Unknown, Russia",Southampton,"Chicago, Illinois, US",Confirmed
+752,753,0.0,3,male,0,0,345780,9.5,S,35.0,"Denderhoutem, Belgium",Southampton,New York City,Unlikely
+753,754,0.0,3,male,0,0,349204,7.8958,S,23.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+754,755,1.0,2,female,1,2,220845,65.0,S,48.0,"Yeovil, Somerset, England",Southampton,"Bernardsville, New Jersey, US",Confirmed
+755,756,1.0,2,male,1,1,250649,14.5,S,1.0,"Detroit, Michigan, US",Southampton,"Detroit, Michigan, US",Confirmed
+756,757,0.0,3,male,0,0,350042,7.7958,S,24.0,"Dagsås, Halland, Sweden",Southampton,"Tower, Minnesota, US",Unlikely
+757,758,0.0,2,male,0,0,29108,11.5,S,18.0,"Penzance, Cornwall, England",Southampton,"Akron, Ohio, US",Unlikely
+758,759,0.0,3,male,0,0,363294,8.05,S,34.0,"Strood, Kent, England",Southampton,"Detroit, Michigan, US",Unlikely
+759,760,1.0,1,female,0,0,110152,86.5,S,34.0,"Vancouver, British Columbia, Canada",Southampton,"Vancouver, British Columbia, Canada",Confirmed
+760,761,0.0,3,male,0,0,358585,14.5,S,21.0,"Wollaston, Northamptonshire, England",Southampton,"Kitchener, Ontario, Canada",Unlikely
+761,762,0.0,3,male,0,0,SOTON/O2 3101272,7.125,S,41.0,"Kauhajoki, Finland",Southampton,"Sudbury, Ontario, Canada",Unlikely
+762,763,1.0,3,male,0,0,2663,7.2292,C,27.0,"Hardîne, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US",Confirmed
+763,764,1.0,1,female,1,2,113760,120.0,S,36.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US",Confirmed
+764,765,0.0,3,male,0,0,347074,7.775,S,16.0,"Kårberg, Örebro, Sweden",Southampton,"Jerome Junction, Arizona, US",Unlikely
+765,766,1.0,1,female,1,0,13502,77.9583,S,51.0,"Hudson, New York, US",Cherbourg,"Hudson, New York, US",Confirmed
+766,767,0.0,1,male,0,0,112379,39.6,C,45.0,"Philadelphia, Pennsylvania, US",Cherbourg,"Philadelphia, Pennsylvania, US",Unlikely
+767,768,0.0,3,female,0,0,364850,7.75,Q,32.0,"Carrowkehine, Mayo, Ireland",Queenstown,"Chicago, Illinois, US",Unlikely
+768,769,0.0,3,male,1,0,371110,24.15,Q,27.0,"Askeaton, Limerick, Ireland",Queenstown,"Brooklyn, New York, US",Unlikely
+769,770,0.0,3,male,0,0,8471,8.3625,S,32.0,"Bokn, Norway",Southampton,"Portland, North Dakota, US",Unlikely
+770,771,0.0,3,male,0,0,345781,9.5,S,24.0,"Haaltert, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+771,772,0.0,3,male,0,0,350047,7.8542,S,48.0,"Portland, Oregon, US",Southampton,"Portland, Oregon, US",Unlikely
+772,773,0.0,2,female,0,0,S.O./P.P. 3,10.5,S,57.0,"Southampton, Hampshire, England",Southampton,New York City,Unlikely
+773,774,0.0,3,male,0,0,2674,7.225,C,29.0,"Unknown, Lebanon",Cherbourg,New York City,Unlikely
+774,775,1.0,2,female,1,3,29105,23.0,S,54.0,"Penzance, Cornwall, England",Southampton,"Akron, Ohio, US",Confirmed
+775,776,0.0,3,male,0,0,347078,7.75,S,18.0,"Kristinehamn, Värmland, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+776,777,0.0,3,male,0,0,383121,7.75,Q,20.0,"Cahir, Tipperary, Ireland",Queenstown,New York City,Unlikely
+777,778,1.0,3,female,0,0,364516,12.475,S,6.0,"New York City, New York, US",Southampton,New York City,Confirmed
+778,779,0.0,3,male,0,0,36865,7.7375,Q,22.0,"Currafarry, Galway, Ireland",Queenstown,New York City,Unlikely
+779,780,1.0,1,female,0,1,24160,211.3375,S,43.0,"St Louis, Missouri, US",Southampton,"St Louis, Missouri, US",Confirmed
+780,781,1.0,3,female,0,0,2687,7.2292,C,15.0,"Beirut, Lebanon",Cherbourg,"Owen Sound, Ontario, Canada",Confirmed
+781,782,1.0,1,female,1,0,17474,57.0,S,17.0,"Calgary, Alberta, Canada",Southampton,"Calgary, Alberta, Canada",Confirmed
+782,783,0.0,1,male,0,0,113501,30.0,S,29.0,"Springfield, Massachusetts, US",Southampton,"Springfield, Massachusetts, US",Unlikely
+783,784,0.0,3,male,1,2,W./C. 6607,23.45,S,35.0,"Thornton Heath, London, England",Southampton,"New London, Connecticut, US",Unlikely
+784,785,0.0,3,male,0,0,SOTON/O.Q. 3101312,7.05,S,25.0,"Buenos Aires, Argentina",Southampton,New York City,Unlikely
+785,786,0.0,3,male,0,0,374887,7.25,S,25.0,"Manchester, England",Southampton,"Montreal, Quebec, Canada",Unlikely
+786,787,1.0,3,female,0,0,3101265,7.4958,S,18.0,"Munsala, Finland",Southampton,"Olympia, Washington, US",Confirmed
+787,788,0.0,3,male,4,1,382652,29.125,Q,8.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US",Unlikely
+788,789,1.0,3,male,1,2,C.A. 2315,20.575,S,1.0,"Bartley Farm, Hampshire, England",Southampton,"Wichita, Kansas, US",Confirmed
+789,790,0.0,1,male,0,0,PC 17593,79.2,C,46.0,"Paris, France",Cherbourg,"New York, New York, US",Unlikely
+790,791,0.0,3,male,0,0,12460,7.75,Q,23.0,"Athenry, Galway, Ireland",Queenstown,"Auburndale, Florida, US",Unlikely
+791,792,0.0,2,male,0,0,239865,26.0,S,18.0,"Liverpool, Merseyside, England",Southampton,"Montreal, Quebec, Canada",Unlikely
+792,793,0.0,3,female,8,2,CA. 2343,69.55,S,20.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+793,794,0.0,1,male,0,0,PC 17600,30.6958,C,42.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+794,795,0.0,3,male,0,0,349203,7.8958,S,25.0,"Terziysko, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+795,796,0.0,2,male,0,0,28213,13.0,S,39.0,"Middleburg Heights, Ohio, US",Southampton,"Middleburg Heights, Ohio, US",Unlikely
+796,797,1.0,1,female,0,0,17465,25.9292,S,49.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+797,798,1.0,3,female,0,0,349244,8.6833,S,31.0,"Vagovina, Croatia",Southampton,"Steelton, Pennsylvania, US",Unconfirmed
+798,799,0.0,3,male,0,0,2685,7.2292,C,33.0,"Beirut, Lebanon",Cherbourg,New York City,Unlikely
+799,800,0.0,3,female,1,1,345773,24.15,S,30.0,"Kerksken, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+800,801,0.0,2,male,0,0,250647,13.0,S,34.0,"Southampton, Hampshire, England",Southampton,New York City,Unlikely
+801,802,1.0,2,female,1,1,C.A. 31921,26.25,S,31.0,"Bishopstoke, Hampshire, England",Southampton,"Payette, Idaho, US",Confirmed
+802,803,1.0,1,male,1,2,113760,120.0,S,11.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US",Confirmed
+803,804,1.0,3,male,0,1,2625,8.5167,C,0.42,"Hardîne, Lebanon",Cherbourg,"Wilkes Barre, Pennsylvania, US",Confirmed
+804,805,1.0,3,male,0,0,347089,6.975,S,27.0,"St. Paul, Minnesota, US",Southampton,"St. Paul, Minnesota, US",Confirmed
+805,806,0.0,3,male,0,0,347063,7.775,S,31.0,"Duluth, Minnesota, US",Southampton,"Duluth, Minnesota, US",Unlikely
+806,807,0.0,1,male,0,0,112050,0.0,S,39.0,"Belfast, Ireland, UK",Belfast,"New York, New York, US",Unlikely
+807,808,0.0,3,female,0,0,347087,7.775,S,18.0,"Stockholm, Uppland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+808,809,0.0,2,male,0,0,248723,13.0,S,31.0,"Harrow, London, England",Southampton,New York City,Unlikely
+809,810,1.0,1,female,1,0,113806,53.1,S,32.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+810,811,0.0,3,male,0,0,3474,7.8875,S,23.0,"Great Yarmouth, Norfolk, England",Southampton,"Albion, Michigan, US",Unlikely
+811,812,0.0,3,male,0,0,A/4 48871,24.15,S,39.0,"West Bromwich, Staffordshire, England",Southampton,"Pontiac, Michigan, US",Unlikely
+812,813,0.0,2,male,0,0,28206,10.5,S,35.0,"Landrake, Cornwall, England",Southampton,"Nashua, New Hampshire, US",Unlikely
+813,814,0.0,3,female,4,2,347082,31.275,S,6.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+814,815,0.0,3,male,0,0,364499,8.05,S,22.0,"Portage la Prairie, Manitoba, Canada",Southampton,"Des Moines, Iowa, US",Unlikely
+815,816,0.0,1,male,0,0,112058,0.0,S,39.0,"Liverpool, Merseyside, England, UK",Southampton,"New York, New York, US",Unlikely
+816,817,0.0,3,female,0,0,STON/O2. 3101290,7.925,S,23.0,"Turku, Finland",Southampton,New York City,Unlikely
+817,818,0.0,2,male,1,1,S.C./PARIS 2079,37.0042,C,31.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada",Unlikely
+818,819,0.0,3,male,0,0,C 7075,6.45,S,43.0,"Karlshamn, Blekinge, Sweden",Southampton,New York City,Unlikely
+819,820,0.0,3,male,3,2,347088,27.9,S,11.0,"Hällekis, Västergötland, Sweden",Southampton,"Iron Mountain, Michigan, US",Unlikely
+820,821,1.0,1,female,1,1,12749,93.5,S,52.0,"Montreal, Quebec, Canada",Southampton,"Montreal, Quebec, Canada",Confirmed
+821,822,1.0,3,male,0,0,315098,8.6625,S,29.0,"Konjsko Brdo, Croatia",Southampton,"Chicago, Illinois, US",Confirmed
+822,823,0.0,1,male,0,0,19972,0.0,S,38.0,"Rotterdam, The Netherlands",Southampton,"New York, New York, US",Unlikely
+823,824,1.0,3,female,0,1,392096,12.475,S,29.0,"Unknown, Russia",Southampton,"Chicago, Illinois, US",Confirmed
+824,825,0.0,3,male,4,1,3101295,39.6875,S,2.0,"Ylihärmä, South Ostrobothnia, Finland",Southampton,"Coal Center, Pennsylvania, US",Unlikely
+825,826,0.0,3,male,0,0,368323,6.95,Q,42.0,"Clonbur, Galway, Ireland",Queenstown,"Pittsburgh, Pennsylvania, US",Unlikely
+826,827,0.0,3,male,0,0,1601,56.4958,S,23.0,"Hong Kong, China",Southampton,New York City,Unlikely
+827,828,1.0,2,male,0,2,S.C./PARIS 2079,37.0042,C,1.0,"Montreal, Quebec, Canada",Cherbourg,"Montreal, Quebec, Canada",Confirmed
+828,829,1.0,3,male,0,0,367228,7.75,Q,19.0,"Bayonne, New Jersey, US",Queenstown,"Guttenberg, New Jersey, US",Confirmed
+830,831,1.0,3,female,1,0,2659,14.4542,C,15.0,"Unknown, Lebanon",Cherbourg,"Wilkes-Barre, Pennsylvania, US",Confirmed
+831,832,1.0,2,male,1,1,29106,18.75,S,0.75,"Penzance, Cornwall, England",Southampton,"Akron, Ohio, US",Confirmed
+832,833,0.0,3,male,0,0,2671,7.2292,C,30.0,"Tebnine, Lebanon",Cherbourg,New York City,Unlikely
+833,834,0.0,3,male,0,0,347468,7.8542,S,23.0,"Krakoryd, Småland, Sweden",Southampton,"Bloomington, Indiana, US",Unlikely
+834,835,0.0,3,male,0,0,2223,8.3,S,15.0,"Southall, London, England",Southampton,New York City,Unlikely
+835,836,1.0,1,female,1,1,PC 17756,83.1583,C,39.0,"Lakewood, New Jersey, US",Cherbourg,"Lakewood, New Jersey, US",Confirmed
+836,837,0.0,3,male,0,0,315097,8.6625,S,21.0,"Streklevac, Slovenia",Southampton,"Aurora, Illinois, US",Unlikely
+837,838,0.0,3,male,0,0,392092,8.05,S,20.0,"London, England",Southampton,New York City,Unlikely
+838,839,1.0,3,male,0,0,1601,56.4958,S,32.0,"Hong Kong, China",Southampton,New York City,Confirmed
+839,840,1.0,1,male,0,0,11774,29.7,C,28.0,"Paris, France",Cherbourg,"New York, New York, US",Confirmed
+840,841,0.0,3,male,0,0,SOTON/O2 3101287,7.925,S,19.0,"Salo, Finland",Southampton,"Astoria, Oregon, US",Unlikely
+841,842,0.0,2,male,0,0,S.O./P.P. 3,10.5,S,16.0,"Huntingfield, Suffolk, England",Southampton,New York City,Unlikely
+842,843,1.0,1,female,0,0,113798,31.0,C,30.0,"Bryn Mawr, Pennsylvania, US",Southampton,"Bryn Mawr, Pennsylvania, US",Confirmed
+843,844,0.0,3,male,0,0,2683,6.4375,C,30.0,"Áyios Sóstis, Greece",Cherbourg,"Stamford, Connecticut US",Unlikely
+844,845,0.0,3,male,0,0,315090,8.6625,S,17.0,"Lipova Glavica, Croatia",Southampton,"Hammond, Indiana, US",Unlikely
+845,846,0.0,3,male,0,0,C.A. 5547,7.55,S,40.0,"Cincinnati, Ohio, US",Southampton,"Cincinnati, Ohio, US",Unlikely
+846,847,0.0,3,male,8,2,CA. 2343,69.55,S,18.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+847,848,0.0,3,male,0,0,349213,7.8958,C,35.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+848,849,0.0,2,male,0,1,248727,33.0,S,39.0,"London, England",Southampton,"Chicago, Illinois, US",Unlikely
+849,850,1.0,1,female,1,0,17453,89.1042,C,40.0,"Paris, France",Cherbourg,"New York, New York, US",Confirmed
+850,851,0.0,3,male,4,2,347082,31.275,S,4.0,"Kisa, Östergötland, Sweden",Southampton,"Winnipeg, Manitoba, Canada",Unlikely
+851,852,0.0,3,male,0,0,347060,7.775,S,74.0,"Reftele, Småland, Sweden",Southampton,"Effington Rut, South Dakota, US",Unlikely
+852,853,0.0,3,female,1,1,2678,15.2458,C,7.0,"Unknown, Lebanon",Cherbourg,"Kent, British Columbia, Canada",Unlikely
+853,854,1.0,1,female,0,1,PC 17592,39.4,S,16.0,"Paris, France",Cherbourg,"Hanover, New Hampshire, US",Confirmed
+854,855,0.0,2,female,1,0,244252,26.0,S,45.0,"London, England, UK",Southampton,New York City,Unlikely
+855,856,1.0,3,female,0,1,392091,9.35,S,18.0,"London, England",Southampton,"Norfolk, Virginia, US",Confirmed
+856,857,1.0,1,female,1,1,36928,164.8667,S,45.0,"Youngstown, Ohio, US",Southampton,"Youngstown, Ohio, US",Confirmed
+857,858,1.0,1,male,0,0,113055,26.55,S,51.0,"Lima, Peru",Southampton,"Lima, Peru",Confirmed
+858,859,1.0,3,female,0,3,2666,19.2583,C,24.0,"Ḑuhūr ash Shuwayr, Lebanon",Cherbourg,"Brooklyn, New York, US",Confirmed
+859,860,0.0,3,male,0,0,2629,7.2292,C,30.0,"Tebnine, Lebanon",Cherbourg,New York City,Unlikely
+860,861,0.0,3,male,2,0,350026,14.1083,S,41.0,"Racine, Wisconsin, US",Southampton,"Racine, Wisconsin, US",Unlikely
+861,862,0.0,2,male,1,0,28134,11.5,S,20.0,"Porthleven, Cornwall, England",Southampton,"Camden, New Jersey, US",Unlikely
+862,863,1.0,1,female,0,0,17466,25.9292,S,46.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+863,864,0.0,3,female,8,2,CA. 2343,69.55,S,14.0,"Peterborough, Cambridgeshire, England",Southampton,"Jacksonville, Florida, US",Unlikely
+864,865,0.0,2,male,0,0,233866,13.0,S,24.0,"Clevedon, North Somerset England",Southampton,New York City,Unlikely
+865,866,1.0,2,female,0,0,236852,13.0,S,42.0,New York City,Southampton,New York City,Unconfirmed
+866,867,1.0,2,female,1,0,SC/PARIS 2149,13.8583,C,27.0,"Barcelona, Catalonia, Spain",Cherbourg,"Havana, Cuba",Confirmed
+867,868,0.0,1,male,0,0,PC 17590,50.4958,S,31.0,"Trenton, New Jersey, US",Southampton,"Trenton, New Jersey, US",Unlikely
+868,869,0.0,3,male,0,0,345777,9.5,S,23.0,"Haaltert, East Flanders, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+869,870,1.0,3,male,1,1,347742,11.1333,S,4.0,"St. Charles, Illinois, US",Southampton,"St. Charles, Illinois, US",Confirmed
+870,871,0.0,3,male,0,0,349248,7.8958,S,26.0,"Bosanska Krupa, Bosnia",Southampton,"Harrisburg, Pennsylvania, US",Unlikely
+871,872,1.0,1,female,1,1,11751,52.5542,S,46.0,"New York, New York, US",Southampton,"New York, New York, US",Confirmed
+872,873,0.0,1,male,0,0,695,5.0,S,33.0,"New York, New York, US",Southampton,"New York, New York, US",Unlikely
+873,874,0.0,3,male,0,0,345765,9.0,S,46.0,"Zwevezele, Belgium",Southampton,"Detroit, Michigan, US",Unlikely
+874,875,1.0,2,female,1,0,P/PP 3381,24.0,C,28.0,Russia,Cherbourg,"New York, New York, US",Confirmed
+875,876,1.0,3,female,0,0,2667,7.225,C,15.0,"El Shweir, Lebanon",Cherbourg,"Brooklyn, New York, US",Confirmed
+876,877,0.0,3,male,0,0,7534,9.8458,S,19.0,"Kokkola, Finland",Southampton,"Waukegan, Illinois, US",Unlikely
+877,878,0.0,3,male,0,0,349212,7.8958,S,19.0,"Gumostnik, Lovec, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+878,879,0.0,3,male,0,0,349217,7.8958,S,23.0,"Knezhni Lak, Troyan, Bulgaria",Southampton,"Chicago, Illinois, US",Unlikely
+879,880,1.0,1,female,0,1,11767,83.1583,C,56.0,"Philadelphia, Pennsylvania, US",Cherbourg,"Philadelphia, Pennsylvania, US",Confirmed
+880,881,1.0,2,female,0,1,230433,26.0,S,25.0,"Deer Lodge, Montana, US",Southampton,"Deer Lodge, Montana, US",Confirmed
+881,882,0.0,3,male,0,0,349257,7.8958,S,33.0,"Milje, Slovenia",Cherbourg,New York City,Unlikely
+882,883,0.0,3,female,0,0,7552,10.5167,S,22.0,"Stockholm, Sweden",Southampton,"Chicago, Illinois, US",Unlikely
+883,884,0.0,2,male,0,0,C.A./SOTON 34068,10.5,S,28.0,"Plymouth, Devon, England",Southampton,"Houghton, Michigan, US",Unlikely
+884,885,0.0,3,male,0,0,SOTON/OQ 392076,7.05,S,25.0,"London, England",Southampton,"Buffalo, New York, US",Unlikely
+885,886,0.0,3,female,0,5,382652,29.125,Q,39.0,"Athlone, Westmeath, Ireland",Queenstown,"Spokane, Washington, US",Unlikely
+886,887,0.0,2,male,0,0,211536,13.0,S,27.0,"Gudinė, Lithuania [76]",Southampton,"Worcester, Massachusetts, US",Unlikely
+887,888,1.0,1,female,0,0,112053,30.0,S,19.0,"Greenwich, Connecticut, US",Southampton,"Greenwich, Connecticut, US",Confirmed
+888,889,0.0,3,female,1,2,W./C. 6607,23.45,S,7.0,"Thornton Heath, London, England",Southampton,"New London, Connecticut, US",Unlikely
+889,890,1.0,1,male,0,0,111369,30.0,C,26.0,"New York, New York, US",Cherbourg,"New York, New York, US",Confirmed
+890,891,0.0,3,male,0,0,370376,7.75,Q,43.0,"Patrickswell, Limerick, Ireland",Queenstown,New York City,Unlikely
