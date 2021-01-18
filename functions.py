@@ -29,13 +29,13 @@ def knn_continuous(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     features = list(feat_cols.columns)
     
     # Label encode target variable
-    encoded_df = cat_codes(df, list(target))
+    cat_codes(df, [target])
     
     # Instantiate Scaler
     scaler = MinMaxScaler()
 
-    scaled_df = pd.DataFrame(scaler.fit_transform(encoded_df), 
-                           columns=encoded_df.columns)
+    scaled_df = pd.DataFrame(scaler.fit_transform(df), 
+                           columns=df.columns)
     
     # Set seed for reproducibility
     np.random.seed(seed)
@@ -77,10 +77,10 @@ def knn_continuous(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     null_idx = list(nan_cols.index)
 
     # Answer Key
-    answer_key = encoded_df.iloc[null_idx]
+    answer_key = df.iloc[null_idx]
     
     #Instantiate KNNImputer
-    impute = KNNImputer(n_neighbors = 5)
+    impute = KNNImputer(n_neighbors = n_neighbors)
 
     # Applying to dataframe
     knn_df = pd.DataFrame(impute.fit_transform(scaled_df), 
@@ -94,7 +94,7 @@ def knn_continuous(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     test_df = inverse_knn_df.iloc[null_idx]
     
     # Resetting indexes of test_df and answer_key for iteration
-    test_df = test_iris.reset_index()
+    test_df = test_df.reset_index()
     test_df.drop(['index', target], axis=1, inplace=True)
     answer_key = answer_key.reset_index()
     answer_key.drop(['index', target], axis=1, inplace=True)
@@ -108,12 +108,12 @@ def knn_continuous(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     for col in results.columns:
         for i in range(len(results)):
             if results[col][i] != 0.00 or results[col][i] != -0.00:
-            imperfect_imputes += 1
+                imperfect_imputes += 1
 
     # Imputes where y - y_hat == 0
     perfect_imputes = num_nan - imperfect_imputes
 
-    print(f'Total Values Imputed: {total_imputes}')
+    print(f'Total Values Imputed: {num_nan}')
     print(f'Imperfect Imputations: {imperfect_imputes}')
     print(f'Perfect Imputations: {perfect_imputes}')
     print('\n')
@@ -141,7 +141,7 @@ def knn_continuous(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     return print(f'RMSE for KNN Imputation on dataset is {rmse}')
    
 
-def knn_cat(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
+def knn_cat(df, target, frac_nan=0.1, n_neighbors=5, seed=17):
     
     '''
     Input:
@@ -158,14 +158,16 @@ def knn_cat(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     feat_cols = df.drop(target, axis=1)
     features = list(feat_cols.columns)
     
+    columns = list(df.columns)
+    
     # Label encode target variable
-    encoded_df = cat_codes(df, list(target))
+    cat_codes(df, columns)
     
     # Instantiate Scaler
     scaler = MinMaxScaler()
 
-    scaled_df = pd.DataFrame(scaler.fit_transform(encoded_df), 
-                           columns=encoded_df.columns)
+    scaled_df = pd.DataFrame(scaler.fit_transform(df), 
+                           columns=df.columns)
     
     # Set seed for reproducibility
     np.random.seed(seed)
@@ -207,10 +209,10 @@ def knn_cat(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     null_idx = list(nan_cols.index)
 
     # Answer Key
-    answer_key = encoded_df.iloc[null_idx]
+    answer_key = df.iloc[null_idx]
     
     #Instantiate KNNImputer
-    impute = KNNImputer(n_neighbors = 5)
+    impute = KNNImputer(n_neighbors = n_neighbors)
 
     # Applying to dataframe
     knn_df = pd.DataFrame(impute.fit_transform(scaled_df), 
@@ -229,7 +231,7 @@ def knn_cat(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     test_df = inverse_knn_df.iloc[null_idx]
     
     # Resetting indexes of test_df and answer_key for iteration
-    test_df = test_iris.reset_index()
+    test_df = test_df.reset_index()
     test_df.drop(['index', target], axis=1, inplace=True)
     answer_key = answer_key.reset_index()
     answer_key.drop(['index', target], axis=1, inplace=True)
@@ -238,20 +240,12 @@ def knn_cat(df, target, frac_nan=0.1, n_neighbors=5, seed=None):
     results = pd.DataFrame((round((answer_key - test_df), 3)))
     
     # Imputes where y - y_hat != 0
-    imperfect_imputes = 0
-
-    for col in results.columns:
-        for i in range(len(results)):
-            if results[col][i] != 0.00 or results[col][i] != -0.00:
-            imperfect_imputes += 1
-
-    # Imputes where y - y_hat != 0
     errors = 0
 
     for col in results.columns:
         for i in range(len(results)):
             if results[col][i] != 0.00 or results[col][i] != -0.00:
-            errors += 1
+                errors += 1
 
 
     # Imputes where y - y_hat == 0
