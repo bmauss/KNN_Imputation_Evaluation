@@ -1,6 +1,7 @@
 # KNN_Imputation_Evaluation
 
 ![Medium](https://miro.medium.com/max/506/1*HDtq6WgZmWkcreUuW_dnKg.jpeg)
+
 This is an investigation into the effectiveness of using KNN Imputation on different datasets. 
 
 KNN Imputation has become a very popular method for quickly dealing with missing data.  In this project, we'll be looking into the its effectiveness in estimating missing values against continuous and categorical data on two datasets: The Iris dataset and the Seattle Terry Stops Dataset.
