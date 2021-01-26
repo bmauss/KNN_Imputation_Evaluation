@@ -36,6 +36,3 @@ The next step is to make the answer key. To do this, subset the dataframe so tha
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/answer_key_10.PNG)
 
-
-
-![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/answer_key_10.PNG)
