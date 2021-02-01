@@ -36,6 +36,8 @@ The next step is to make the answer key. To do this, subset the dataframe so tha
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/answer_key_10.PNG)
 
+## Impute the Data
+
 With the answer key in hand, we can go ahead and instantiate `KNNImputer` and fit it to our dataset! We'll keep the default number of neighbors: 5.  
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/10_impute.PNG)
@@ -54,4 +56,25 @@ The values, then, represent the amount of error in present in the imputations.  
  
  As you can see above, we were able to find out how many imputations were perfect estimates by first calculating how many were imperfect (e.g. `y_hat - y_actual != 0`). The total number of imperfect *estimations* was 57.  You may remember earlier that the total number of *imputations* overall was 58. Therefore, there was only one instance of a perfect estimation via the KNNImputer. 
 
-With that out of the way, we'll move on to calculating the Root Mean Squared Error. We're choosing to use the RMSE because it penalizes larger errors, giving us a better idea of what kind of errors to be prepared for.  Once again, we don't need to worry about not knowing which zeros to include in our calculations since we know the total number of imputed values and adding a `0` doesn't affect the sum.
+With that out of the way, we'll move on to calculating the Root Mean Squared Error. We're choosing to use the RMSE because it penalizes larger errors, giving us a better idea of what kind of errors to be prepared for.  Once again, we don't need to worry about not knowing which zeros to include in our calculations since we know the total number of imputed values and adding `0` doesn't affect the sum.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/10_rmse.PNG)
+
+Imputing 10% of our data through KNN Imputation *can* result in an RMSE of 0.43 centimeters. Of course, since the estimates are made based on the data that is *present*, this means that the RMSE will change depending on which data is missing.  If it so happened that the missing 10% had a lot of outliers, the algorithm would have to make an estimate using data that was closer to the mean, resulting in a higher RMSE.  On the otherhand, if most of the outliers were still present, then the missing values would be closer to the mean, making KNN imputer more accurate.
+
+To get a true feel for how well the algorithm works, we would need to remove the random seed and run the experiment 30+ times and find the average RMSE.  For now, we'll just stick with 0.43 centimeters. 
+
+## 20% Missing Data
+
+Let's see what happens when we remove 20% of the data.  We'll change the random seed value so that the datawe remove will be different from the previous experiment.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/20_removed.PNG)
+
+Now let's inspect the state of the dataset.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/20_removed.PNG)
+
+## Imputation and Results
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/20_results.PNG)
+
