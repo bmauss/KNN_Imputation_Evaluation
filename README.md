@@ -36,3 +36,22 @@ The next step is to make the answer key. To do this, subset the dataframe so tha
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/answer_key_10.PNG)
 
+With the answer key in hand, we can go ahead and instantiate `KNNImputer` and fit it to our dataset! We'll keep the default number of neighbors: 5.  
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/10_impute.PNG)
+
+In order to interpret our results, we need to invert the scaling.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/10_inverse.PNG)
+
+Now that our results and answer key are on the same scale, we can begin evaluating the estimations.  We'll do this by subsetting the test dataframe with the same index we used to create the answer key.  Next, we reset the index, this way we can perform iterative functions and processes on them.  Lastly, we'll create a new dataframe where `df[column][i] = test_df[column][i] - answer_key[column][i]`.  
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/10_results.PNG)
+
+The values, then, represent the amount of error in present in the imputations.  A `0.00`, however, has two possible interpretations: 1). The value in the test table was never missing to begin with, or 2). The value imputed was a perfect estimation (e.g. the actual value). Although we don't have the means to tell the difference between the two cases on an individual basis, we do have the means to determine the number of "perfect imputations".
+
+ ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/10_perfect_imputes.PNG)
+ 
+ As you can see above, we were able to find out how many imputations were perfect estimates by first calculating how many were imperfect (e.g. `y_hat - y_actual != 0`). The total number of imperfect *estimations* was 57.  You may remember earlier that the total number of *imputations* overall was 58. Therefore, there was only one instance of a perfect estimation via the KNNImputer. 
+
+With that out of the way, we'll move on to calculating the Root Mean Squared Error. We're choosing to use the RMSE because it penalizes larger errors, giving us a better idea of what kind of errors to be prepared for.  Once again, we don't need to worry about not knowing which zeros to include in our calculations since we know the total number of imputed values and adding a `0` doesn't affect the sum.
