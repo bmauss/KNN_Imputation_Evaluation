@@ -78,3 +78,8 @@ Now let's inspect the state of the dataset.
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/iris/20_results.PNG)
 
+So the RMSE actually improved! What could cause this?  Well, one reason could be because we changed the `random seed` value.  This switched up what elements of the dataframe were removed.  As was mentioned earlier, if the outlier data weren't removed, then the algorithm would just need to calculate its estimations based on data that was closer to the mean (of which there is plenty). 
+
+Another reason is the importance of the `target` variable, the only data left untouched during both of the experiments.  As was stated, the Iris dataset is curated for classification tasks.  We know that the `target` variable is composed of three evenly distributed classes. Again, these classes represent three different *species* of Iris flowers.  Since these are different species, they must have characteristics that are unique to each of them (if they had no unique characteristics, they wouldn't be split up into different species). This implies that one can estimate (with a degree of accuracy) qualities of an iris flower as long as they knew what species they belonged to.  Even if the algorithm faced a row with no features, it would still know what class it belonged to and could make calculations based entirely off of that.  Therefore, the consistency in our results is due to the fact that the classes are distinct from one another, with few overlapping qualities.  This made estimating a much simpler task for the algorithm.
+
+## Categorical Data  
