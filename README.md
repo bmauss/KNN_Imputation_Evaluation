@@ -84,4 +84,4 @@ Another reason is the importance of the `target` variable, the only data left un
 
 ## Categorical Data  
 
-Our next dataset is the antithesis of the Iris dataset.  It's bloated, the classes are highly imbalanced, and it's got over 30,000 rows.  We're using the Seattle Terry Stops dataset.
+Our next dataset is the antithesis of the Iris dataset.  It's bloated, the classes are highly imbalanced, and it's got over 30,000 rows.  We're using the Seattle Terry Stops dataset. Every feature is categorical, and the columns include such details as race of the subjects and officers, time of day that an incident took place, how the call was issued (eg was it from dispatch or did the officer initiate the stop), and what was the result of the stop.  The target variable is the column `arrest_flag` which is comprised of binary classes. 
