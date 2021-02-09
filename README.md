@@ -84,4 +84,21 @@ Another reason is the importance of the `target` variable, the only data left un
 
 ## Categorical Data  
 
-Our next dataset is the antithesis of the Iris dataset.  It's bloated, the classes are highly imbalanced, and it's got over 30,000 rows.  We're using the Seattle Terry Stops dataset. Every feature is categorical, and the columns include such details as race of the subjects and officers, time of day that an incident took place, how the call was issued (eg was it from dispatch or did the officer initiate the stop), and what was the result of the stop.  The target variable is the column `arrest_flag` which is comprised of binary classes. 
+Our next dataset is the antithesis of the Iris dataset.  It's bloated, the classes are highly imbalanced, and it's got over 30,000 rows.  We're using the Seattle Terry Stops dataset. Every feature is categorical, and the columns include such details as race of the subjects and officers, time of day that an incident took place, how the call was issued (eg was it from dispatch or did the officer initiate the stop), and what the result of the stop was.  The target variable is the column `arrest_flag` which is comprised of binary classes. 
+
+### Preprocessing
+
+To get the data ready, we first need to remove the unnecessary columns.  These columns are statistically insignificant as they are more or less unique identifiers and are less likely to have any relationship to the target variable.  In terms of our experiment, they would skew our results since we'd be asking the algorithm to estimate a **unique** value based on data present in the table, an impossible task.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/drop_cols.PNG)
+
+Next we label encode the entire dataset.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/label.PNG)
+
+Now to remove the data!  This time around, we're going to jump straight to removing 20%.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/nans.PNG)
+
+As you can see, the number of rows affected here are drastically different from the Iris dataset under similar circumstances.  99% of the rows have at least a single value missing.  Very few curated datasets come this messy.  So let's see how well KNN works this time around.
+
