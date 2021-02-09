@@ -96,9 +96,10 @@ Next we label encode the entire dataset.
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/label.PNG)
 
-Now to remove the data!  This time around, we're going to jump straight to removing 20%.
+The following steps are to scale and then remove the data!  This time around, we're going to jump straight to removing 20%.
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/nans.PNG)
 
 As you can see, the number of rows affected here are drastically different from the Iris dataset under similar circumstances.  99% of the rows have at least a single value missing.  Very few curated datasets come this messy.  So let's see how well KNN works this time around.
 
+### Imputation
