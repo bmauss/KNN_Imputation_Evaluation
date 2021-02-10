@@ -103,3 +103,42 @@ The following steps are to scale and then remove the data!  This time around, we
 As you can see, the number of rows affected here are drastically different from the Iris dataset under similar circumstances.  99% of the rows have at least a single value missing.  Very few curated datasets come this messy.  So let's see how well KNN works this time around.
 
 ### Imputation
+
+Just like with the Iris dataset, we instantiate the KNNImputer and fit it to the dataset.  A word of warning, if you're going to run this notebook, you may want to do so using Google Colab.  The KNN imputation process on this dataset is computationally expensive and may require up to 6 GiB of memory to perform.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/knn.PNG)
+
+Again, we'll invert the scaling. 
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/invert.PNG)
+
+Before we move on to evaluation, we need to complete one additional step.  You'll notice that many of the values imputed are `floats`, but label data are `integers`.  To properly evaluate we'll need to round our answers to the nearest whole number.
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/rounding.PNG)
+
+Now for our results:
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/results_5.PNG)
+
+Unlike the Iris dataset, there is no trophy for "Close Enough". Accuracy is determined strictly by what categories were correctly estimated divided by the total number of imputations. So, using 5 neighbors, our accuracy was 55%.  This is just a little bit better than random chance.
+
+Let's see if increasing the number of neighbors helps out.
+
+#### 10 Neighbors
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/results_10.PNG)
+
+With 10 neighbors accuracy decreased.  This is proof that more data doesn't always make better results.  This is because as you increase the number of neighbors you're including neighbors that are farther and, therefore, less similar to the value you're trying to impute.  This will pull the mean farther from the actual value.
+
+With that in mind, let's try fewer neighbors.
+
+#### 2 Neighbors
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/results_2.PNG)
+
+There's some improvement! 56% accuracy with 2 neighbors. One issue here though is that any odd number divided by two ends in "*n*.5". All of these values would be rounded up, even if it should have been rounded down. To avoid this, it is best practice to use an odd number of neighbors.
+
+#### 1 Neighbor
+
+![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/results_1.PNG)
+
