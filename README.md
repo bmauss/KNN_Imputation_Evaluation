@@ -142,3 +142,4 @@ There's some improvement! 56% accuracy with 2 neighbors. One issue here though i
 
 ![GitHub](https://raw.githubusercontent.com/bmauss/KNN_Imputation_Evaluation/main/images/t_stops/results_1.PNG)
 
+With a single neighbor, we have our best results!
